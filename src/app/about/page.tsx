@@ -36,7 +36,7 @@ export default function AboutPage() {
             manufacturer and exporter of custom sports uniforms, with design, printing, decoration and stitching all in one facility.
           </p>
           <p>
-            We make uniforms for American football, soccer, baseball, basketball, ice hockey, volleyball and rugby, along with team warm-ups and
+            We make uniforms for American football, soccer, baseball, basketball, ice hockey and volleyball, along with team warm-ups and
             training wear. Our customers are team dealers, distributors, sportswear brands, clubs and schools in {site.ordering.markets.join(", ")}.
           </p>
           <p>

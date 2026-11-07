@@ -120,7 +120,7 @@ export default function HomePage() {
               <span className="hero-line">shipped <span className="hl">worldwide.</span></span>
             </h1>
             <p className="mt-7 max-w-xl text-lg text-white/80">
-              {site.name} manufactures custom American football, soccer, baseball, basketball, ice hockey and rugby uniforms for dealers, sportswear brands and clubs in{" "}
+              {site.name} manufactures custom American football, soccer, baseball, basketball, ice hockey and volleyball uniforms for dealers, sportswear brands and clubs in{" "}
               {site.ordering.markets.slice(0, 4).join(", ")} and beyond.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">

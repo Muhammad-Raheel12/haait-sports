@@ -31,7 +31,7 @@ export const products: Product[] = [
     short: "American football",
     metaTitle: "Custom American Football Uniforms Manufacturer",
     metaDescription:
-      "Factory-direct custom American football uniforms: game jerseys, practice jerseys and football pants in sublimation or tackle twill. Low MOQ, worldwide shipping.",
+      "Factory-direct custom American football uniforms: matching game jerseys and pants in sublimation or tackle twill, built for pads. Low MOQ, worldwide shipping.",
     keywords: [
       "custom american football uniforms",
       "football jersey manufacturer",
@@ -39,17 +39,16 @@ export const products: Product[] = [
       "sublimated football uniforms",
       "football pants manufacturer",
     ],
-    summary: "Game and practice jerseys, integrated or traditional pants, built for contact.",
+    summary: "Matching game jerseys and pants in 10 designs, built for contact.",
     intro: [
       "American football jerseys take more abuse than any other team garment, so we build them differently. Shoulders are cut to sit over pads without riding up, side panels use four-way stretch so linemen can’t be grabbed easily, and every stress point is double-needle stitched.",
       "We make full uniform sets for high school programs, youth leagues, semi-pro and club teams, and for brands that sell under their own label. Choose fully sublimated designs with unlimited colors, or classic tackle twill numbers and names sewn on by hand.",
     ],
     includes: [
-      "Game jerseys (home and away)",
-      "Practice jerseys and reversible practice jerseys",
-      "Football pants with belt loops or integrated pad pockets",
-      "7-on-7 and flag football sets",
-      "Matching socks, compression shirts and sideline jackets",
+      "Matching game jerseys and pants in every design",
+      "Home and away colorways from the same pattern",
+      "Pants with internal pockets for thigh and knee pads",
+      "Sublimated or tackle twill names and numbers",
     ],
     fabrics: [
       { name: "Pro-cut spandex body", detail: "Stretch panels that lock tight over shoulder pads." },
@@ -341,41 +340,6 @@ export const products: Product[] = [
       {
         q: "Can libero jerseys be ordered in small quantities?",
         a: "Yes. Libero jerseys can be added to a team order in any quantity, even one or two pieces.",
-      },
-    ],
-  },
-  {
-    slug: "rugby-uniforms",
-    name: "Rugby Uniforms",
-    short: "Rugby",
-    metaTitle: "Custom Rugby Jerseys & Kits Manufacturer",
-    metaDescription:
-      "Custom rugby jerseys, shorts and socks made to order. Tight-fit and classic cuts with reinforced seams and sublimated designs for clubs and schools.",
-    keywords: ["custom rugby jerseys", "rugby kit manufacturer", "sublimated rugby jerseys", "rugby shorts manufacturer"],
-    summary: "Tight-fit and classic jerseys built to survive the ruck.",
-    intro: [
-      "Rugby jerseys are pulled, grabbed and dragged, so seam strength comes first. We use triple-stitched seams, heavy-gauge knits and tight-fit patterns that give opponents less to hold.",
-      "We supply clubs, schools, sevens teams and touring sides with full kits, training wear and supporter jerseys in the same design.",
-    ],
-    includes: ["Match jerseys, tight-fit or classic", "Rugby shorts with reinforced seams", "Socks with custom bands", "Training tops and supporter jerseys"],
-    fabrics: [
-      { name: "Heavy-gauge knit", detail: "Tear-resistant for contact play." },
-      { name: "Compression stretch", detail: "Tight-fit jerseys that are hard to grip." },
-    ],
-    decoration: ["Full sublimation", "Embroidered crests", "Heat-transfer numbers"],
-    features: [
-      { title: "Triple-stitched seams", detail: "Extra stitching on shoulders and side seams." },
-      { title: "Grip-resistant fabric", detail: "Smooth, tight knit that reduces grab points." },
-    ],
-    specs: [
-      { label: "Sizes", value: "Youth 6 – Adult 5XL" },
-      { label: "Fits", value: "Tight-fit, classic" },
-      { label: "Decoration", value: "Sublimation, embroidery" },
-    ],
-    faqs: [
-      {
-        q: "Can we order supporter jerseys in the same design?",
-        a: "Yes. Supporter jerseys are made in a relaxed fit with the same design, often in a lighter fabric for retail sale.",
       },
     ],
   },
