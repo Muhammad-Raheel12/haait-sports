@@ -10,9 +10,9 @@ import path from "node:path";
  *   [category].jpg                 category tile, 1600×1200 (4:3)
  *   [category]/[item].jpg          style card (only this file is used on cards)
  *   [category]/[item]/1.jpg, 2.jpg product page gallery, 1200×1200 (square), shown in number order
- * .jpg, .jpeg, .png and .webp all work.
+ * .webp (preferred), .jpg, .jpeg and .png all work. Run `npm run optimize-images` after adding photos.
  */
-const EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
+const EXTENSIONS = ["webp", "jpg", "jpeg", "png"];
 const PUBLIC = path.join(process.cwd(), "public");
 
 /** Returns the public URL of `base` with whichever supported extension exists. */

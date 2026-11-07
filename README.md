@@ -23,7 +23,7 @@ npm start          # preview the built /out folder
    - `public/images/site/og-default.jpg` (1200×630) – shown when links are shared on social media
    - `public/images/site/logo.png` (square, 512×512) – used by Google for your organization
    - `public/images/products/<product-slug>.jpg` (1600×1200) – one per product
-   Compress every image first (e.g. squoosh.app, WebP or JPG under ~250 KB). Static export does not optimize images for you.
+   Static export does not optimize images for you. After adding product photos (any .jpg/.png), run `npm run optimize-images`: it converts everything in `public/images/products/` to resized WebP and deletes the originals.
 3. **Logo** – edit `src/components/Logo.tsx` to use your logo file.
 4. **Colors** – edit the palette in `tailwind.config.ts`.
 5. **Content** – products: `src/data/products.ts`; FAQs: `src/data/faqs.ts`; blog: `src/data/posts.ts`.
