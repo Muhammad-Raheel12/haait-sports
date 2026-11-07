@@ -1,0 +1,63 @@
+@import "@fontsource-variable/big-shoulders/index.css";
+@import "@fontsource-variable/public-sans/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-padding-top: 5rem; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-white font-sans text-navy antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display font-extrabold leading-[0.95] tracking-[-0.01em] text-navy; text-wrap: balance; }
+  h1 { font-size: clamp(2.75rem, 6vw, 5.25rem); }
+  h2 { font-size: clamp(2.1rem, 4vw, 3.25rem); }
+  h3 { font-size: 1.6rem; line-height: 1.05; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid theme("colors.pylon.DEFAULT"); outline-offset: 3px; border-radius: 2px; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-base font-bold transition duration-200;
+  }
+  .btn-primary { @apply btn bg-pylon text-navy-deep shadow-lg shadow-pylon/25 hover:-translate-y-0.5 hover:bg-pylon-dark hover:text-white; }
+  .btn-outline { @apply btn border-2 border-current hover:border-pylon hover:bg-white/10 hover:text-pylon; }
+  .btn-dark { @apply btn bg-navy text-white hover:-translate-y-0.5 hover:bg-navy-soft; }
+
+  /* Small pill label above section headings. */
+  .eyebrow { @apply inline-flex items-center gap-2 rounded-full border border-pylon/40 bg-pylon/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-pylon-dark; }
+  .eyebrow-dark { @apply eyebrow border-pylon/40 bg-pylon/10 text-pylon; }
+  /* Gold highlight on a word inside a heading. */
+  .hl { @apply text-pylon; }
+
+  /* The sewn-seam motif: a dashed "stitch line" inset from the edge, like a tech-pack panel. */
+  .stitched { position: relative; }
+  .stitched::after {
+    content: ""; position: absolute; inset: 8px; pointer-events: none;
+    border: 1.5px dashed currentColor; border-radius: 6px; opacity: 0.35;
+  }
+
+  .prose-body p { @apply mb-5 max-w-prose text-[1.0625rem] text-navy/85; }
+  .prose-body h2 { @apply mb-4 mt-12 text-[2rem]; }
+  .prose-body a { @apply font-semibold text-pylon-dark underline underline-offset-4 hover:text-navy; }
+  .prose-body ul { @apply mb-6 max-w-prose list-disc space-y-2 pl-6 text-navy/85; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* Single orchestrated moment: the hero headline rises line by line on load. */
+@keyframes rise { from { opacity: 0; transform: translateY(0.35em); } to { opacity: 1; transform: none; } }
+.hero-line { display: block; animation: rise 0.7s cubic-bezier(.2,.7,.2,1) both; }
+.hero-line:nth-child(2) { animation-delay: 0.12s; }
+.hero-line:nth-child(3) { animation-delay: 0.24s; }
+
+/* Endless sports ticker. The track holds the list twice and slides by half its width. */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee-track { display: flex; width: max-content; animation: marquee 40s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+/* Hero jerseys drift gently. */
+@keyframes float { 50% { transform: translateY(-10px) rotate(var(--r, 0deg)); } }
+.float { transform: rotate(var(--r, 0deg)); animation: float 6s ease-in-out infinite; }
