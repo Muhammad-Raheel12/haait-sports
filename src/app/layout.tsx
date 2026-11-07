@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -6,6 +7,23 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/config/site";
 import { organizationLd, websiteLd } from "@/lib/seo";
+
+// Self-hosted variable fonts. next/font preloads them on every page and adds a
+// size-matched fallback, so text appears immediately and doesn't jump when the font arrives.
+const displayFont = localFont({
+  src: "../../node_modules/@fontsource-variable/big-shoulders/files/big-shoulders-latin-wght-normal.woff2",
+  weight: "100 900",
+  display: "swap",
+  variable: "--font-display",
+  adjustFontFallback: "Arial",
+});
+const sansFont = localFont({
+  src: "../../node_modules/@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2",
+  weight: "100 900",
+  display: "swap",
+  variable: "--font-sans",
+  adjustFontFallback: "Arial",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -31,7 +49,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${displayFont.variable} ${sansFont.variable}`}>
       <body>
         <JsonLd data={[organizationLd(), websiteLd()]} />
         <Header />

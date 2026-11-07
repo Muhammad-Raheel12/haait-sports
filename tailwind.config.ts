@@ -16,8 +16,8 @@ const config: Config = {
         line: "#D9DEE5",
       },
       fontFamily: {
-        display: ['"Big Shoulders Variable"', '"Arial Narrow"', "Impact", "sans-serif"],
-        sans: ['"Public Sans Variable"', "system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
+        display: ["var(--font-display)", '"Arial Narrow"', "Impact", "sans-serif"],
+        sans: ["var(--font-sans)", "system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
       },
       maxWidth: { prose: "68ch" },
     },
