@@ -2,7 +2,7 @@ import Image from "next/image";
 import { site } from "@/config/site";
 
 /**
- * Brand logo, cropped from /public/logo.jpeg.
+ * Brand logo (images in /public/images/site/).
  * Header: shield + name as text (the stacked logo is unreadable at header height).
  * `full` shows the complete stacked logo on its own light tile (footer).
  */

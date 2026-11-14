@@ -1,21 +1,49 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 import ProductArt from "./ProductArt";
 
 /**
  * Product page image area: one large square photo with thumbnails underneath.
  * With a single photo the thumbnails are hidden; with none it shows the branded artwork.
+ * Several photos: swipe on touch screens, or use the left/right arrow keys once the gallery has focus.
  */
 export default function ProductGallery({ images, alt, seed, label }: { images: string[]; alt: string; seed: string; label?: string }) {
   const [active, setActive] = useState(0);
   const count = images.length;
   const go = (i: number) => setActive((i + count) % count);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+
+  const onKeyDown = (e: React.KeyboardEvent) => {
+    if (count < 2) return;
+    if (e.key === "ArrowLeft") go(active - 1);
+    else if (e.key === "ArrowRight") go(active + 1);
+    else return;
+    e.preventDefault();
+  };
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const start = touchStart.current;
+    touchStart.current = null;
+    if (!start || count < 2) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    // A clear horizontal swipe changes photo; vertical movement is left to page scrolling.
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(t.clientY - start.y)) go(dx < 0 ? active + 1 : active - 1);
+  };
 
   return (
-    <div>
-      <div className="group relative aspect-square overflow-hidden rounded-3xl bg-white shadow-2xl ring-1 ring-white/10">
+    <div onKeyDown={onKeyDown}>
+      <div
+        className="group relative aspect-square touch-pan-y overflow-hidden rounded-3xl bg-white shadow-2xl ring-1 ring-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-pylon"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        {...(count > 1 ? { tabIndex: 0, role: "group", "aria-roledescription": "carousel", "aria-label": `${alt}: photo ${active + 1} of ${count}. Use the arrow keys to change photo.` } : {})}
+      >
         {count === 0 ? (
           <ProductArt seed={seed} label={label} />
         ) : (

@@ -6,8 +6,11 @@ import { posts } from "@/data/posts";
 
 export const dynamic = "force-static";
 
+/**
+ * lastModified is only set where we know the real date (blog posts). Stamping every page
+ * with the build time teaches Google to ignore lastmod for the whole site.
+ */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   const pages: [string, number][] = [
     ["/", 1],
     ["/products/", 0.9],
@@ -21,10 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/privacy-policy/", 0.2],
   ];
   return [
-    ...pages.map(([path, priority]) => ({ url: absoluteUrl(path), lastModified: now, priority })),
-    ...products.map((p) => ({ url: absoluteUrl(`/products/${p.slug}/`), lastModified: now, priority: 0.9 })),
+    ...pages.map(([path, priority]) => ({ url: absoluteUrl(path), priority })),
+    ...products.map((p) => ({ url: absoluteUrl(`/products/${p.slug}/`), priority: 0.9 })),
     ...products.flatMap((p) =>
-      (productItems[p.slug] ?? []).map((it) => ({ url: absoluteUrl(`/products/${p.slug}/${it.slug}/`), lastModified: now, priority: 0.8 })),
+      (productItems[p.slug] ?? []).map((it) => ({ url: absoluteUrl(`/products/${p.slug}/${it.slug}/`), priority: 0.8 })),
     ),
     ...posts.map((p) => ({ url: absoluteUrl(`/blog/${p.slug}/`), lastModified: new Date(p.updated ?? p.date), priority: 0.5 })),
   ];

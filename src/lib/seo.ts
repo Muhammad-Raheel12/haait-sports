@@ -8,6 +8,8 @@ export const absoluteUrl = (path = "/") => {
   return `${site.url}${withSlash}`;
 };
 
+const DEFAULT_OG_IMAGE = "/images/site/og-default.jpg";
+
 type PageMeta = {
   title: string;
   description: string;
@@ -22,7 +24,10 @@ type PageMeta = {
 /** Per-page metadata with canonical URL, Open Graph and Twitter cards. */
 export function pageMetadata({ title, description, path, keywords, image, type = "website", publishedTime, modifiedTime }: PageMeta): Metadata {
   const url = absoluteUrl(path);
-  const img = image ?? "/images/site/og-default.jpg";
+  const img = image ?? DEFAULT_OG_IMAGE;
+  // Only the default share image is known to be 1200×630; product photos are square or 4:3,
+  // so for those we let social sites read the real size instead of declaring a wrong one.
+  const ogImage = image ? { url: img, alt: title } : { url: img, width: 1200, height: 630, alt: title };
   return {
     title,
     description,
@@ -35,7 +40,7 @@ export function pageMetadata({ title, description, path, keywords, image, type =
       siteName: site.name,
       type,
       locale: "en_US",
-      images: [{ url: img, width: 1200, height: 630, alt: title }],
+      images: [ogImage],
       ...(type === "article" ? { publishedTime, modifiedTime } : {}),
     },
     twitter: { card: "summary_large_image", title, description, images: [img] },

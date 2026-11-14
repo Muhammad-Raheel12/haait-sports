@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Logo from "./Logo";
 import { products } from "@/data/products";
 
@@ -21,7 +21,20 @@ export default function Header() {
   // until the pointer leaves or focus re-enters, so it doesn't stay open over the new page.
   const [dropdownDismissed, setDropdownDismissed] = useState(false);
   const pathname = usePathname();
+  const menuButton = useRef<HTMLButtonElement>(null);
   useEffect(() => setOpen(false), [pathname]);
+
+  // Escape closes the mobile menu and returns focus to the menu button.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setOpen(false);
+      menuButton.current?.focus();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(href);
 
@@ -86,6 +99,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link href="/contact/" className="btn-primary hidden !px-5 !py-2.5 sm:inline-flex">Get a quote</Link>
           <button
+            ref={menuButton}
             type="button"
             className="grid h-11 w-11 place-items-center rounded-md border border-line lg:hidden"
             aria-expanded={open}

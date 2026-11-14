@@ -5,12 +5,13 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import QuoteCta from "@/components/QuoteCta";
 import ProductItemCard from "@/components/ProductItemCard";
 import ProductGallery from "@/components/ProductGallery";
+import JsonLd from "@/components/JsonLd";
 import { FieldLines, Glow } from "@/components/PageHeader";
 import { getProduct, products } from "@/data/products";
 import { productItems } from "@/data/product-items";
 import { site } from "@/config/site";
 import { itemGallery, itemImage } from "@/lib/images";
-import { pageMetadata } from "@/lib/seo";
+import { absoluteUrl, pageMetadata } from "@/lib/seo";
 
 type Params = { params: { slug: string; item: string } };
 
@@ -63,6 +64,20 @@ export default function ItemPage({ params }: Params) {
 
   return (
     <>
+      {/* No offers/price: made-to-order pricing is quoted per order, so this describes the product without claiming one. */}
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: `Custom ${it.name}`,
+          description: it.metaDescription,
+          url: absoluteUrl(`/products/${category.slug}/${it.slug}/`),
+          category: category.name,
+          ...(photos.length ? { image: photos.map((src) => `${site.url}${src}`) } : {}),
+          brand: { "@type": "Brand", name: site.name },
+          manufacturer: { "@id": `${site.url}/#organization` },
+        }}
+      />
       <section className="relative overflow-hidden bg-navy text-white">
         <FieldLines />
         <Glow />

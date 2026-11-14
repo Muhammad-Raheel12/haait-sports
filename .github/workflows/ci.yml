@@ -1,0 +1,34 @@
+# Runs lint and a full static build on every push and pull request,
+# so a change that breaks the site is caught before it is deployed.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+
+      # Fail if a product photo was committed without running `npm run optimize-images`.
+      - name: Check product photos are WebP
+        run: |
+          leftovers=$(find public/images/products -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \))
+          if [ -n "$leftovers" ]; then
+            echo "Run 'npm run optimize-images' before committing. Unconverted photos:"
+            echo "$leftovers"
+            exit 1
+          fi
