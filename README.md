@@ -19,11 +19,13 @@ npm start          # preview the built /out folder
 1. **`src/config/site.ts`** – company name, domain, email, phone, WhatsApp, address, MOQ, lead times, social links.
    Everything on the site (titles, footer, contact page, structured data, sitemap) reads from here.
 2. **Images** – replace the placeholder JPGs in `public/images/` with real photos, keeping the same file names:
-   - `public/images/site/hero.jpg` (1600×1200), `decoration.jpg`, `team.jpg`, `factory.jpg` (1200×1500)
+   - `public/images/site/team.jpg` (1600×1200, About page), `factory.jpg` (1200×1500, Manufacturing page)
    - `public/images/site/og-default.jpg` (1200×630) – shown when links are shared on social media
    - `public/images/site/logo.png` (square, 512×512) – used by Google for your organization
-   - `public/images/products/<product-slug>.jpg` (1600×1200) – one per product
-   Static export does not optimize images for you. After adding product photos (any .jpg/.png), run `npm run optimize-images`: it converts everything in `public/images/products/` to resized WebP and deletes the originals.
+   - `public/images/products/<product-slug>.jpg` – category tile, one per product (front view)
+   - `public/images/products/<product-slug>/<item-slug>.jpg` – style card (front view)
+   - `public/images/products/<product-slug>/<item-slug>/1.jpg, 2.jpg …` – product page gallery (square)
+   Static export does not optimize images for you. After adding product photos (any .jpg/.png, any size), run `npm run optimize-images`: it converts them to WebP and deletes the originals, and fits tiles (1200×900) and cards (800×600) to 4:3 with the garment centred. Keep your original photos outside `public/` (this repo uses `image-sources/`).
 3. **Logo** – edit `src/components/Logo.tsx` to use your logo file.
 4. **Colors** – edit the palette in `tailwind.config.ts`.
 5. **Content** – products: `src/data/products.ts`; FAQs: `src/data/faqs.ts`; blog: `src/data/posts.ts`.

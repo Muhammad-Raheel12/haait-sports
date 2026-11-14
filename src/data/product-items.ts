@@ -6,8 +6,9 @@
  * a 140–160 character meta description, two description paragraphs and four
  * highlight bullets.
  *
- * Images: add a photo at /public/images/products/[category-slug]/[item-slug].jpg
- * (1200×900 recommended). Until you do, the card shows the category image.
+ * Images: add a front-view photo at /public/images/products/[category-slug]/[item-slug].jpg
+ * (any size) and run `npm run optimize-images`; it fits the photo to an 800×600 card. Until
+ * you do, the card shows branded placeholder artwork.
  */
 export type ProductItem = {
   slug: string;

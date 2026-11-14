@@ -6,7 +6,7 @@ const config: Config = {
     container: { center: true, padding: { DEFAULT: "1.25rem", lg: "2rem" }, screens: { "2xl": "1280px" } },
     extend: {
       colors: {
-        // Brand palette taken from the Haafit Sports logo (public/logo.jpeg).
+        // Brand palette taken from the Haafit Sports logo (public/images/site/logo-full.jpg).
         navy: { DEFAULT: "#050020", deep: "#03000F", soft: "#1D1740" },
         chalk: "#F7F7F7",
         // pylon = logo gold; dark is a deeper amber that passes contrast for text on white.

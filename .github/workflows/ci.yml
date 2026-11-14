@@ -1,4 +1,4 @@
-# Runs lint and a full static build on every push and pull request,
+# Runs lint, tests and a full static build on every push and pull request,
 # so a change that breaks the site is caught before it is deployed.
 name: CI
 
@@ -21,6 +21,7 @@ jobs:
 
       - run: npm ci
       - run: npm run lint
+      - run: npm test
       - run: npm run build
 
       # Fail if a product photo was committed without running `npm run optimize-images`.

@@ -43,7 +43,7 @@ const depthOf = (file) => path.relative(ROOT, file).split(path.sep).length; // 1
  * gradient, so it is flood-filled in from the borders; the garment's outline stops the fill.
  * Soft floor shadows are smooth too, so they count as background.
  */
-async function findGarment(file) {
+export async function findGarment(file) {
   const N = 256;
   const { data } = await sharp(file).removeAlpha().resize(N, N, { fit: "fill" }).blur(1).raw().toBuffer({ resolveWithObject: true });
   const bg = new Uint8Array(N * N);
