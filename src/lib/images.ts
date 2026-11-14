@@ -7,10 +7,12 @@ import path from "node:path";
  * Server-only: reads the /public folder at build time.
  *
  * Where to put photos (all under /public/images/products/):
- *   [category].jpg                 category tile, 1600×1200 (4:3)
+ *   [category].jpg                 category tile (front view)
  *   [category]/[item].jpg          style card (only this file is used on cards)
- *   [category]/[item]/1.jpg, 2.jpg product page gallery, 1200×1200 (square), shown in number order
- * .webp (preferred), .jpg, .jpeg and .png all work. Run `npm run optimize-images` after adding photos.
+ *   [category]/[item]/1.jpg, 2.jpg product page gallery, square, shown in number order
+ * .webp (preferred), .jpg, .jpeg and .png all work. Any size works: `npm run optimize-images`
+ * converts to WebP and renders tiles (1200×900) and cards (800×600) straight from the original as 4:3 with the
+ * garment centred at the same size, so the 4:3 card boxes never crop them.
  */
 const EXTENSIONS = ["webp", "jpg", "jpeg", "png"];
 const PUBLIC = path.join(process.cwd(), "public");
