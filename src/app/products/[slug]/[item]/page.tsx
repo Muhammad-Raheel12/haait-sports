@@ -5,13 +5,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import QuoteCta from "@/components/QuoteCta";
 import ProductItemCard from "@/components/ProductItemCard";
 import ProductGallery from "@/components/ProductGallery";
-import JsonLd from "@/components/JsonLd";
 import { FieldLines, Glow } from "@/components/PageHeader";
 import { getProduct, products } from "@/data/products";
 import { productItems } from "@/data/product-items";
 import { site } from "@/config/site";
 import { itemGallery, itemImage } from "@/lib/images";
-import { absoluteUrl, pageMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
 type Params = { params: { slug: string; item: string } };
 
@@ -64,20 +63,10 @@ export default function ItemPage({ params }: Params) {
 
   return (
     <>
-      {/* No offers/price: made-to-order pricing is quoted per order, so this describes the product without claiming one. */}
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: `Custom ${it.name}`,
-          description: it.metaDescription,
-          url: absoluteUrl(`/products/${category.slug}/${it.slug}/`),
-          category: category.name,
-          ...(photos.length ? { image: photos.map((src) => `${site.url}${src}`) } : {}),
-          brand: { "@type": "Brand", name: site.name },
-          manufacturer: { "@id": `${site.url}/#organization` },
-        }}
-      />
+      {/* No Product schema on purpose: Google only accepts Product with a price (offers), reviews
+          or ratings, and made-to-order uniforms are quoted per order. Without one of those, every
+          item page shows as an "invalid item" error in Search Console. Breadcrumbs carry the page's
+          structured data instead. */}
       <section className="relative overflow-hidden bg-navy text-white">
         <FieldLines />
         <Glow />

@@ -197,8 +197,9 @@ export default function HomePage() {
           <Link href="/products/" className="btn-dark self-start md:self-auto">View all products</Link>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {products.map((p, i) => (
-            <ProductCard key={p.slug} product={p} image={categoryImage(p.slug)} styles={productItems[p.slug]?.length} priority={i < 2} />
+          {/* No priority here: these tiles sit below the hero, so preloading them would compete with the fonts. */}
+          {products.map((p) => (
+            <ProductCard key={p.slug} product={p} image={categoryImage(p.slug)} styles={productItems[p.slug]?.length} />
           ))}
         </div>
       </section>
