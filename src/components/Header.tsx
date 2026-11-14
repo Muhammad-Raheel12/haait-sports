@@ -16,20 +16,23 @@ const nav = [
 ];
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  // The mobile menu remembers the page it was opened on, so it counts as closed as soon as
+  // the visitor navigates elsewhere (no effect needed to close it on route change).
+  const [openAt, setOpenAt] = useState<string | null>(null);
+  const open = openAt === pathname;
+  const setOpen = (value: boolean) => setOpenAt(value ? pathname : null);
   // The desktop dropdown opens on hover/focus via CSS; this hides it after a pick
   // until the pointer leaves or focus re-enters, so it doesn't stay open over the new page.
   const [dropdownDismissed, setDropdownDismissed] = useState(false);
-  const pathname = usePathname();
   const menuButton = useRef<HTMLButtonElement>(null);
-  useEffect(() => setOpen(false), [pathname]);
 
   // Escape closes the mobile menu and returns focus to the menu button.
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Escape") return;
-      setOpen(false);
+      setOpenAt(null);
       menuButton.current?.focus();
     };
     document.addEventListener("keydown", onKey);
@@ -104,7 +107,7 @@ export default function Header() {
             className="grid h-11 w-11 place-items-center rounded-md border border-line lg:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => setOpen(!open)}
           >
             <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
             <svg aria-hidden="true" viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2">

@@ -1,19 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { site } from "@/config/site";
 import { products } from "@/data/products";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
+// The query string doesn't change while the form is on screen, so there is nothing to subscribe to.
+const noSubscription = () => () => {};
+const productFromUrl = () => new URLSearchParams(window.location.search).get("product") ?? "";
+
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   // Quote buttons link here with ?product=…, which preselects (or adds) that product.
-  const [product, setProduct] = useState("");
-  useEffect(() => {
-    const fromUrl = new URLSearchParams(window.location.search).get("product");
-    if (fromUrl) setProduct(fromUrl);
-  }, []);
+  // Read from the URL in the browser only; the static HTML is built with no product chosen.
+  const fromUrl = useSyncExternalStore(noSubscription, productFromUrl, () => "");
+  const [chosen, setChosen] = useState<string | null>(null);
+  const product = chosen ?? fromUrl;
   const categoryNames = products.map((p) => p.name);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -79,7 +82,7 @@ export default function ContactForm() {
       </div>
       <div>
         <label htmlFor="product" className={label}>Product</label>
-        <select id="product" name="product" className={field} value={product} onChange={(e) => setProduct(e.target.value)}>
+        <select id="product" name="product" className={field} value={product} onChange={(e) => setChosen(e.target.value)}>
           <option value="" disabled>Choose a product</option>
           {product && !categoryNames.includes(product) && product !== "Other / several products" && <option>{product}</option>}
           {categoryNames.map((name) => <option key={name}>{name}</option>)}

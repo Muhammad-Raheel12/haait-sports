@@ -10,8 +10,10 @@ import { absoluteUrl, pageMetadata } from "@/lib/seo";
 
 export const generateStaticParams = () => posts.map((p) => ({ slug: p.slug }));
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const p = getPost(params.slug);
+type Props = { params: Promise<{ slug: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const p = getPost((await params).slug);
   if (!p) return {};
   return pageMetadata({
     title: p.title,
@@ -24,8 +26,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   });
 }
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const p = getPost(params.slug);
+export default async function PostPage({ params }: Props) {
+  const p = getPost((await params).slug);
   if (!p) notFound();
   return (
     <>

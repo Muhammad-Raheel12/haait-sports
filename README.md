@@ -1,11 +1,11 @@
-# Sports uniform manufacturer website (Next.js 14, static export)
+# Sports uniform manufacturer website (Next.js 16, static export)
 
 A fast, SEO-ready static website for a custom team-uniform manufacturer and exporter.
-Built with Next.js 14 App Router, TypeScript and Tailwind CSS. `npm run build` outputs plain HTML to `/out`.
+Built with Next.js 16 App Router, TypeScript and Tailwind CSS. `npm run build` outputs plain HTML to `/out`.
 
 ## 1. Run it locally
 
-Requires Node.js 18.17 or newer.
+Requires Node.js 20.9 or newer (24 LTS recommended).
 
 ```bash
 npm install

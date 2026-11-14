@@ -16,8 +16,10 @@ import { absoluteUrl, faqLd, pageMetadata } from "@/lib/seo";
 
 export const generateStaticParams = () => products.map((p) => ({ slug: p.slug }));
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const p = getProduct(params.slug);
+type Props = { params: Promise<{ slug: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const p = getProduct((await params).slug);
   if (!p) return {};
   return pageMetadata({
     title: p.metaTitle,
@@ -28,8 +30,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   });
 }
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const p = getProduct(params.slug);
+export default async function ProductPage({ params }: Props) {
+  const p = getProduct((await params).slug);
   if (!p) notFound();
 
   const items = productItems[p.slug] ?? [];

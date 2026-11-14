@@ -12,20 +12,21 @@ import { site } from "@/config/site";
 import { itemGallery, itemImage } from "@/lib/images";
 import { pageMetadata } from "@/lib/seo";
 
-type Params = { params: { slug: string; item: string } };
+type RouteParams = { slug: string; item: string };
+type Params = { params: Promise<RouteParams> };
 
 export const generateStaticParams = () =>
   products.flatMap((p) => (productItems[p.slug] ?? []).map((it) => ({ slug: p.slug, item: it.slug })));
 
-function load({ slug, item }: Params["params"]) {
+function load({ slug, item }: RouteParams) {
   const category = getProduct(slug);
   const items = productItems[slug] ?? [];
   const it = items.find((x) => x.slug === item);
   return category && it ? { category, it, items } : null;
 }
 
-export function generateMetadata({ params }: Params): Metadata {
-  const data = load(params);
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const data = load(await params);
   if (!data) return {};
   const { category, it } = data;
   return pageMetadata({
@@ -37,8 +38,8 @@ export function generateMetadata({ params }: Params): Metadata {
   });
 }
 
-export default function ItemPage({ params }: Params) {
-  const data = load(params);
+export default async function ItemPage({ params }: Params) {
+  const data = load(await params);
   if (!data) notFound();
   const { category, it, items } = data;
   const gallery = itemGallery(category.slug, it.slug);
