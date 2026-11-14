@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <>
       <PageHeader title="Privacy policy" crumbs={[{ name: "Privacy policy", path: "/privacy-policy/" }]} />
       <article className="container prose-body py-16 md:py-20">
-        <p>This policy explains what information {site.legalName} collects through this website and how it is used. Have it reviewed by a legal advisor for your markets before publishing.</p>
+        <p>This policy explains what information {site.legalName} collects through this website and how it is used.</p>
         <h2>Information we collect</h2>
         <p>When you send an enquiry, we receive the details you enter: your name, company, email address, country and message. We do not collect payment information through this website.</p>
         <h2>How we use it</h2>

@@ -18,7 +18,7 @@ export type Post = {
 export const posts: Post[] = [
   {
     slug: "sublimation-vs-tackle-twill",
-    title: "Sublimation vs tackle twill: which is right for your team uniforms?",
+    title: "Sublimation vs tackle twill for team uniforms",
     description:
       "Compare sublimated and tackle twill uniforms on cost, durability, weight and look, and learn when to combine both on the same jersey.",
     date: "2026-10-01",
@@ -64,7 +64,7 @@ export const posts: Post[] = [
   },
   {
     slug: "how-to-order-custom-team-uniforms",
-    title: "How to order custom team uniforms from a manufacturer",
+    title: "Ordering custom uniforms from a manufacturer",
     description:
       "A step-by-step guide to ordering custom uniforms directly from a factory: preparing artwork, rosters, samples, lead times and shipping.",
     date: "2026-10-15",
@@ -108,7 +108,7 @@ export const posts: Post[] = [
   },
   {
     slug: "team-uniform-fabrics-explained",
-    title: "Team uniform fabrics: mesh vs interlock vs dazzle",
+    title: "Uniform fabrics: mesh vs interlock vs dazzle",
     description:
       "Which fabric should your team uniforms use? Compare mesh, interlock, dazzle, stretch knit and recycled polyester on comfort, durability and print quality.",
     date: "2026-11-14",
@@ -178,7 +178,7 @@ export const posts: Post[] = [
   },
   {
     slug: "how-to-collect-team-uniform-sizes",
-    title: "How to collect team uniform sizes (and avoid costly reorders)",
+    title: "How to collect team uniform sizes",
     description:
       "A practical system for collecting player sizes for custom team uniforms: size charts, try-on sessions, youth and women’s cuts, rosters and spares.",
     date: "2026-11-14",
@@ -233,7 +233,7 @@ export const posts: Post[] = [
   },
   {
     slug: "private-label-sportswear-for-dealers-and-brands",
-    title: "Private label team uniforms: a guide for dealers and brands",
+    title: "Private label team uniforms for dealers",
     description:
       "How team dealers and sportswear brands work with a uniform factory under their own label: branding, samples, pricing, quality control and repeat orders.",
     date: "2026-11-14",
