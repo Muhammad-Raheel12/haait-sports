@@ -18,7 +18,7 @@ export const site = {
   /** Default description for pages that don’t set their own (150–160 chars). */
   description:
     "Manufacturer and exporter of custom American football, soccer, baseball, basketball and team uniforms. Factory-direct pricing, low MOQs, worldwide shipping.",
-  foundingYear: 2010,
+  foundingYear: 2021,
 
   contact: {
     email: "sales@yourdomain.com",
@@ -58,7 +58,7 @@ export const site = {
 
   /** Ordering facts repeated across the site. Keep them accurate. */
   ordering: {
-    moq: "25 pieces per design",
+    moq: "10 pieces per design",
     sampleTime: "7–10 working days",
     productionTime: "3–5 weeks after sample approval",
     shipping: "DHL, FedEx, UPS by air; sea freight for large orders",

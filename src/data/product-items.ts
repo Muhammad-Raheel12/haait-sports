@@ -30,7 +30,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Navy & Gold Striped Game Uniform",
       detail: "Navy set with gold sleeve stripes and leg panels.",
       metaDescription:
-        "Custom Navy & Gold Striped Game Uniform: navy jersey with gold sleeve stripes and white numbers, plus matching pants with gold leg panels. MOQ 25 sets.",
+        "Custom Navy & Gold Striped Game Uniform: navy jersey with gold sleeve stripes and white numbers, plus matching pants with gold leg panels. MOQ 10 sets.",
       description: [
         "The Navy & Gold Striped Game Uniform takes its cue from classic college football: a navy jersey with bold gold and white stripes on the sleeves, a white V-neck collar and white numbers outlined in gold. Matching navy pants carry a gold panel down each leg. It is a timeless home uniform for schools and clubs with navy and gold colors.",
         "Numbers can be sublimated or sewn on as tackle twill in one to three layers for a raised, stitched look. The jersey has a pro cut that sits over shoulder pads, with stretch side panels and a reinforced collar. Pants include internal pockets for thigh and knee pads and a belted waist. Stripe colors and widths can be changed to suit your program.",
@@ -47,7 +47,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black Crimson Game Uniform",
       detail: "Black set with jagged crimson side panels.",
       metaDescription:
-        "Custom Black Crimson Game Uniform: black sublimated jersey and pants with jagged crimson side panels and white numbers. Pro cut over pads, MOQ 25 sets.",
+        "Custom Black Crimson Game Uniform: black sublimated jersey and pants with jagged crimson side panels and white numbers. Pro cut over pads, MOQ 10 sets.",
       description: [
         "The Black Crimson Game Uniform pairs a black body with crimson side panels that break into a jagged edge, running from the underarm down through the pants. White numbers with a crimson outline and a white collar give the front a sharp, high-contrast look. It works well as a primary uniform for black and red programs or as a night-game alternate.",
         "Both pieces are fully sublimated, so the jagged panels line up across the jersey and pants and nothing cracks or peels after a season of washing. The jersey uses a pro cut over shoulder pads with four-way stretch side panels that reduce grab points. Pants have internal pad pockets and a belted waist. Any accent color can replace the crimson.",
@@ -64,7 +64,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Yoke Game Uniform",
       detail: "Royal blue set with a white shoulder yoke.",
       metaDescription:
-        "Custom Royal Yoke Game Uniform: royal blue jersey with a white shoulder yoke and grey collar, plus matching pants with white side panels. MOQ 25 sets.",
+        "Custom Royal Yoke Game Uniform: royal blue jersey with a white shoulder yoke and grey collar, plus matching pants with white side panels. MOQ 10 sets.",
       description: [
         "The Royal Yoke Game Uniform uses a bright royal blue body with a white yoke across the shoulders and a grey V-neck collar. White numbers stand out clearly against the blue, and white panels down the sides of the pants carry the shoulder color through the whole uniform. It is a clean, modern design for programs with royal blue and white colors.",
         "The yoke is sublimated, so it sits flat over shoulder pads without the extra seams of a sewn panel. The jersey is pro cut with stretch side panels and reinforced stitching at the neck and armholes. Pants use a four-way stretch knit with internal pad pockets and a belted waist. Swap the royal and white for any two team colors.",
@@ -81,7 +81,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Green Chevron Game Uniform",
       detail: "Forest green set with gold and white chevrons.",
       metaDescription:
-        "Custom Green Chevron Game Uniform: forest green jersey with gold and white chevrons at the hem and matching striped pants. Sublimated, pro cut, MOQ 25 sets.",
+        "Custom Green Chevron Game Uniform: forest green jersey with gold and white chevrons at the hem and matching striped pants. Sublimated, pro cut, MOQ 10 sets.",
       description: [
         "The Green Chevron Game Uniform features stacked gold and white chevrons across the lower front of a forest green jersey, pointing down toward the belt. White numbers with a gold outline sit above the stripes, and matching green pants carry gold and white bands below the knee. Schools with green and gold colors often choose it as their home uniform.",
         "The chevrons are sublimated, so there is no extra charge for the added colors and the stripes stay sharp across every seam. The jersey has a pro cut over shoulder pads with stretch side panels and a white collar. Pants include internal pad pockets and a belted waist. Chevron colors, angle and spacing can all be changed.",
@@ -98,7 +98,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Maroon Diamond Game Uniform",
       detail: "Maroon set with grey diamond side panels.",
       metaDescription:
-        "Custom Maroon Diamond Game Uniform: maroon jersey and pants with grey diamond pattern side panels and white numbers. Fully sublimated, pro cut, MOQ 25 sets.",
+        "Custom Maroon Diamond Game Uniform: maroon jersey and pants with grey diamond pattern side panels and white numbers. Fully sublimated, pro cut, MOQ 10 sets.",
       description: [
         "The Maroon Diamond Game Uniform has a deep maroon body with side panels made of stacked grey and white diamonds that run from the jersey down the outside of each leg. White numbers and a white V-neck collar keep the front clean. The geometric panels give the uniform a distinctive look that stands out on the field and in team photos.",
         "Because the diamonds are sublimated, the pattern stays crisp and lines up across the jersey and pants. The jersey is pro cut over shoulder pads with four-way stretch side panels that are harder to grab. Pants have internal pockets for thigh and knee pads and a belted waist. The pattern colors and the base color can be changed to suit any program.",
@@ -115,7 +115,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Purple Fade Game Uniform",
       detail: "Purple set with gold numbers and a black fade.",
       metaDescription:
-        "Custom Purple Fade Game Uniform: purple jersey with gold numbers and pants that fade to black in halftone dots below the knee. Sublimated, MOQ 25 sets.",
+        "Custom Purple Fade Game Uniform: purple jersey with gold numbers and pants that fade to black in halftone dots below the knee. Sublimated, MOQ 10 sets.",
       description: [
         "The Purple Fade Game Uniform pairs a purple jersey with gold numbers, gold team name and a black collar, plus matching purple pants that fade to black below the knee in a halftone dot pattern. The fade adds movement to an otherwise clean design and helps hide wear at the knees. It suits schools and clubs with purple and gold colors.",
         "Gradients like this are only possible with sublimation, which also means the colors never crack, lift or fade in the wash. The jersey is pro cut over shoulder pads with stretch side panels, and the pants have internal pad pockets and a belted waist. The fade can use any two colors, and numbers can be printed or sewn as tackle twill.",
@@ -132,7 +132,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Blackout Volt Game Uniform",
       detail: "Black jersey and pants with volt green trim.",
       metaDescription:
-        "Custom Blackout Volt Game Uniform: black sublimated jersey and integrated pants with volt green numbers and side stripes. Pro cut over pads, MOQ 25 sets.",
+        "Custom Blackout Volt Game Uniform: black sublimated jersey and integrated pants with volt green numbers and side stripes. Pro cut over pads, MOQ 10 sets.",
       description: [
         "The Blackout Volt Game Uniform pairs a black jersey and black pants with bright volt green numbers, shoulder stripes and leg piping. The dark base hides grass and turf stains, while the volt accents stay readable from the press box and on game film. It suits night games, alternate uniforms and programs that want an aggressive modern look.",
         "Both pieces are fully sublimated, so the trim, numbers, team name and sleeve logos are dyed into the fabric and never peel. The jersey uses a pro cut that sits over shoulder pads, with stretch side panels. Matching pants have a belted waist and internal pad pockets. Swap the volt for any accent color your team uses.",
@@ -149,7 +149,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Blaze Orange Game Uniform",
       detail: "Orange jersey and pants with navy side panels.",
       metaDescription:
-        "Custom Blaze Orange Game Uniform: orange sublimated jersey and pants with navy side panels and white numbers. Pro cut over pads, made to order from 25 sets.",
+        "Custom Blaze Orange Game Uniform: orange sublimated jersey and pants with navy side panels and white numbers. Pro cut over pads, made to order from 10 sets.",
       description: [
         "The Blaze Orange Game Uniform is built around a bold orange body with navy side panels running from the underarm down the leg. White numbers with a navy outline keep the front and back easy to read, and a white collar and belt give the set a clean finish. It is a strong choice for schools and clubs with orange and navy colors.",
         "Jersey and pants are sublimated in the same run, so the orange matches exactly across both pieces. The jersey is cut short in the sleeve to sit tight over pads, with four-way stretch side panels that reduce grab points. Pants include pockets for thigh and knee pads. Team names, numbers and logos are printed at no extra cost.",
@@ -166,7 +166,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Panel Game Uniform",
       detail: "Sky blue set with navy panels and piping.",
       metaDescription:
-        "Custom Sky Blue Panel Game Uniform: sky blue sublimated jersey and pants with navy side panels, piping and numbers. Fits over pads, from 25 sets per order.",
+        "Custom Sky Blue Panel Game Uniform: sky blue sublimated jersey and pants with navy side panels, piping and numbers. Fits over pads, from 10 sets per order.",
       description: [
         "The Sky Blue Panel Game Uniform uses a light sky blue body with navy side panels, navy numbers and thin white piping that frames each panel. The lighter base works well for home games in warm weather and photographs clearly under stadium lights. Programs with powder blue, Carolina blue or columbia blue colors often start from this design.",
         "The whole set is sublimated, so the panels and piping line up across the jersey and pants without extra sewing. The jersey has a pro cut over shoulder pads and a V-neck collar, while the pants use a stretch knit with internal pad pockets and a belted waist. Any shade of blue, or a completely different color pair, can be used.",
@@ -183,7 +183,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Retro Chest-Stripe Game Uniform",
       detail: "White set with a classic red chest band.",
       metaDescription:
-        "Custom Retro Chest-Stripe Game Uniform: white jersey with a red and navy chest band, matching pants with striped socks. Classic football look, MOQ 25 sets.",
+        "Custom Retro Chest-Stripe Game Uniform: white jersey with a red and navy chest band, matching pants with striped socks. Classic football look, MOQ 10 sets.",
       description: [
         "The Retro Chest-Stripe Game Uniform borrows from classic football jerseys: a white body, a wide red band across the chest and shoulders with navy edges, and red numbers that sit across the stripe. The matching white pants carry navy and red bands below the knee. It works well as a throwback alternate or as a road uniform for traditional programs.",
         "Even with the vintage styling, the jersey is a modern sublimated build with a pro cut over pads and stretch side panels. The chest band is printed rather than sewn, so it stays flat and never pulls at the seams. Pants include pockets for thigh and knee pads. Stripe colors and widths can be changed to match your school.",
@@ -202,7 +202,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Navy & Gold Stripe Soccer Kit",
       detail: "Navy kit with a gold center stripe.",
       metaDescription:
-        "Custom Navy & Gold Stripe Soccer Kit: navy jersey with a gold center stripe, matching shorts and socks. Fully sublimated with names and numbers, MOQ 25 kits.",
+        "Custom Navy & Gold Stripe Soccer Kit: navy jersey with a gold center stripe, matching shorts and socks. Fully sublimated with names and numbers, MOQ 10 kits.",
       description: [
         "The Navy & Gold Stripe Soccer Kit runs a single gold stripe, edged in white, straight down the center of a navy jersey. White numbers with a gold outline sit across the stripe on the back, and a white V-neck collar keeps the front clean. Navy shorts carry gold side stripes, and matching socks finish the look. It suits clubs and schools with navy and gold colors.",
         "The jersey is fully sublimated, so the stripe stays perfectly straight and never cracks or peels after washing. It is cut from a lightweight, breathable knit with a regular athletic fit that moves freely through sprints and tackles. Stripe width and colors can be changed, and player names, numbers, crests and sponsor logos are printed in the same pass.",
@@ -219,7 +219,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Red & Black Stripe Soccer Kit",
       detail: "Classic vertical red and black stripes.",
       metaDescription:
-        "Custom Red & Black Stripe Soccer Kit: classic vertical red and black striped jersey with black shorts and socks. Sublimated, any colors, made from 25 kits.",
+        "Custom Red & Black Stripe Soccer Kit: classic vertical red and black striped jersey with black shorts and socks. Sublimated, any colors, made from 10 kits.",
       description: [
         "The Red & Black Stripe Soccer Kit uses the classic vertical stripe pattern seen on famous club shirts around the world. Alternating red and black stripes run from the shoulders to the hem, with a white V-neck collar and white numbers on the back. Black shorts with thin red side piping and black socks complete a bold, traditional look.",
         "Because the stripes are sublimated rather than sewn, they line up perfectly across the seams and the jersey stays light and flexible. The breathable knit wicks sweat and dries quickly between halves. Stripe widths and colors can be adjusted to match your club, and crests, sponsor logos, names and numbers are printed at no extra cost.",
@@ -236,7 +236,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Sash Soccer Kit",
       detail: "Royal blue kit with a white diagonal sash.",
       metaDescription:
-        "Custom Royal Sash Soccer Kit: royal blue jersey with a wide white diagonal sash, matching sash shorts and socks. Fully sublimated, made to order from 25 kits.",
+        "Custom Royal Sash Soccer Kit: royal blue jersey with a wide white diagonal sash, matching sash shorts and socks. Fully sublimated, made to order from 10 kits.",
       description: [
         "The Royal Sash Soccer Kit has a wide white sash that runs diagonally across a royal blue jersey, from the shoulder to the opposite hip, edged in light grey. The sash continues across the shorts, so the kit looks connected when a player is in motion. White numbers sit over the sash on the back, and a grey V-neck collar completes the design.",
         "The sash is sublimated, so it crosses the side seams without stitching, overlays or extra weight. The jersey is made from a breathable knit with a regular athletic fit for match play and training. Sash angle, width and colors can all be changed. Team crests, sponsor logos, names and numbers are printed in the same step at no extra charge.",
@@ -253,7 +253,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Green & Gold Raglan Soccer Kit",
       detail: "Forest green body with gold raglan sleeves.",
       metaDescription:
-        "Custom Green & Gold Raglan Soccer Kit: forest green jersey with gold raglan sleeves, matching shorts with gold side panels and socks. Sublimated, MOQ 25 kits.",
+        "Custom Green & Gold Raglan Soccer Kit: forest green jersey with gold raglan sleeves, matching shorts with gold side panels and socks. Sublimated, MOQ 10 kits.",
       description: [
         "The Green & Gold Raglan Soccer Kit pairs a forest green body with gold raglan sleeves that run from the collar to the cuff. White numbers with a gold outline stand out on the back, and the white V-neck collar adds a clean finish. Green shorts with gold side panels and green socks with gold trim complete a classic two-color kit.",
         "Raglan sleeves give the shoulders extra freedom of movement for throw-ins, headers and long passes. The whole kit is sublimated in a lightweight, quick-dry knit, so colors stay bright and never peel after washing. Any two colors can be used in this layout, and crests, sponsors, names and numbers are included in the price.",
@@ -270,7 +270,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Maroon Hoops Soccer Kit",
       detail: "Maroon jersey with grey and white hoops.",
       metaDescription:
-        "Custom Maroon Hoops Soccer Kit: maroon jersey with horizontal grey and white hoops, plus maroon shorts and socks. Fully sublimated, made to order from 25 kits.",
+        "Custom Maroon Hoops Soccer Kit: maroon jersey with horizontal grey and white hoops, plus maroon shorts and socks. Fully sublimated, made to order from 10 kits.",
       description: [
         "The Maroon Hoops Soccer Kit features wide horizontal grey hoops, each edged with thin white lines, across a maroon jersey. The hoops run all the way around the body and sleeves, giving the kit a traditional club look. White numbers and team name sit across the hoops, and plain maroon shorts with white hems and maroon socks keep the outfit balanced.",
         "Hooped designs like this are sublimated, so the bands line up across seams and the jersey stays light and soft. The breathable knit wicks moisture and holds its shape through a full season of matches and washing. Hoop colors, widths and spacing can be changed, and names, numbers, crests and sponsor logos are printed at no extra cost.",
@@ -287,7 +287,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Purple Fade Soccer Kit",
       detail: "Purple kit fading to black with gold numbers.",
       metaDescription:
-        "Custom Purple Fade Soccer Kit: purple jersey and shorts fading to black in a halftone dot pattern, with gold numbers and crest. Sublimated, MOQ 25 kits.",
+        "Custom Purple Fade Soccer Kit: purple jersey and shorts fading to black in a halftone dot pattern, with gold numbers and crest. Sublimated, MOQ 10 kits.",
       description: [
         "The Purple Fade Soccer Kit starts with a deep purple chest and shoulders, then fades to black toward the hem through a halftone dot pattern. Gold numbers, team name and crest stand out against the purple. The matching shorts use the same fade from purple at the waist to black at the hem, and purple socks finish the kit.",
         "Gradients like this are only possible with sublimation, which also keeps the colors from cracking or fading in the wash. The jersey is made from a lightweight, breathable knit with a black V-neck collar. Any two colors can be used for the fade, and gold can be swapped for any accent. Names, numbers and sponsor logos are included.",
@@ -304,7 +304,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black Volt Shard Soccer Kit",
       detail: "Black kit with volt green shard graphics.",
       metaDescription:
-        "Custom Black Volt Shard Soccer Kit: black jersey and shorts with jagged volt green and grey shard graphics, plus volt numbers. Sublimated, made from 25 kits.",
+        "Custom Black Volt Shard Soccer Kit: black jersey and shorts with jagged volt green and grey shard graphics, plus volt numbers. Sublimated, made from 10 kits.",
       description: [
         "The Black Volt Shard Soccer Kit uses a black base with jagged volt green and grey shards along the sides and lower hem of the jersey. Volt green numbers and team name stand out clearly from the stands and on video. The shorts repeat the shard graphics down each leg, and black socks with volt trim complete an aggressive, modern kit.",
         "The shards are sublimated, so they wrap across seams and onto the shorts at no extra cost. The jersey is made from a quick-dry, breathable knit with a white V-neck collar and a regular athletic fit. The volt accent can be swapped for any color your club uses, and crests, names, numbers and sponsor logos are printed in the same pass.",
@@ -321,7 +321,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Orange & Navy Band Soccer Kit",
       detail: "Orange kit with a navy chest band.",
       metaDescription:
-        "Custom Orange & Navy Band Soccer Kit: orange jersey with a navy chest band and striped hem, plus orange shorts and socks. Fully sublimated, MOQ 25 kits.",
+        "Custom Orange & Navy Band Soccer Kit: orange jersey with a navy chest band and striped hem, plus orange shorts and socks. Fully sublimated, MOQ 10 kits.",
       description: [
         "The Orange & Navy Band Soccer Kit has a bright orange jersey with a wide navy band across the chest, edged in white, that carries the player name on the back. Thin navy and white stripes repeat at the hem and on the sleeve cuffs. Orange shorts with striped hems and orange socks with navy bands complete a bold, retro-inspired kit.",
         "Every band and stripe is sublimated, so the design stays flat and light with no sewn panels. The jersey uses a breathable knit with a white V-neck collar and a regular athletic fit. Band position and colors can be adjusted to suit your club, and crests, sponsor logos, names and numbers are printed in the same step.",
@@ -338,7 +338,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Panel Soccer Kit",
       detail: "Sky blue kit with navy side panels.",
       metaDescription:
-        "Custom Sky Blue Panel Soccer Kit: sky blue jersey with curved navy side panels, plus matching shorts and socks. Sublimated with names and numbers, MOQ 25 kits.",
+        "Custom Sky Blue Panel Soccer Kit: sky blue jersey with curved navy side panels, plus matching shorts and socks. Sublimated with names and numbers, MOQ 10 kits.",
       description: [
         "The Sky Blue Panel Soccer Kit pairs a light sky blue jersey with curved navy panels that sweep down each side from the underarm to the hem. Navy numbers and team name read clearly on the light base, and a white V-neck collar adds contrast. Sky blue shorts with navy side panels and sky blue socks complete a clean, classic kit.",
         "The curved panels give the jersey a slimmer, more athletic shape without changing the fit. Everything is sublimated in a breathable, quick-dry knit, so colors stay bright after many washes. Any two colors can replace the sky blue and navy, and team crests, sponsor logos, player names and numbers are included at no extra cost.",
@@ -355,7 +355,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "White Pinstripe Soccer Kit",
       detail: "White kit with thin red pinstripes.",
       metaDescription:
-        "Custom White Pinstripe Soccer Kit: white jersey and shorts with thin red pinstripes, navy collar, cuffs and numbers. Fully sublimated, made from 25 kits.",
+        "Custom White Pinstripe Soccer Kit: white jersey and shorts with thin red pinstripes, navy collar, cuffs and numbers. Fully sublimated, made from 10 kits.",
       description: [
         "The White Pinstripe Soccer Kit uses a white jersey with fine red vertical pinstripes, a navy V-neck collar and navy sleeve cuffs. Navy numbers and team name sit cleanly over the stripes. The matching white shorts continue the pinstripes with a navy hem, and white socks with red and navy bands finish a smart, classic kit that works well as an away strip.",
         "The pinstripes are sublimated, so they stay sharp and evenly spaced across every seam and never fade or peel. The jersey is cut from a lightweight, breathable knit with a regular athletic fit. Stripe color and spacing can be changed, and team crests, sponsor logos, player names and numbers are printed in the same pass.",
@@ -428,7 +428,7 @@ export const productItems: Record<string, ProductItem[]> = {
         "Custom Green & Gold Yoke Baseball Uniform: forest green button-front jersey with gold shoulder yokes and piping, plus pants with gold side panels. MOQ 25.",
       description: [
         "The Green & Gold Yoke Baseball Uniform uses a forest green button-front jersey with gold panels across the tops of the shoulders and gold piping down the placket. The team name runs across the chest in white script outlined in gold, and the back carries a white player name and number. Green pants with a gold side panel finish the set.",
-        "The shoulder yokes are sublimated, so they sit flat with no extra seams and the colors stay bright through a full season. The jersey uses a breathable stretch knit with a full button front. Pants have a belted waist, reinforced knees and elastic cuffs. Made to order from 25 pieces, with any two colors in place of green and gold.",
+        "The shoulder yokes are sublimated, so they sit flat with no extra seams and the colors stay bright through a full season. The jersey uses a breathable stretch knit with a full button front. Pants have a belted waist, reinforced knees and elastic cuffs. Made to order from 10 pieces, with any two colors in place of green and gold.",
       ],
       highlights: [
         "Gold shoulder yokes on forest green",
@@ -462,7 +462,7 @@ export const productItems: Record<string, ProductItem[]> = {
         "Custom Purple Fade Baseball Uniform: purple jersey that fades to black in halftone dots, with gold script and piping, plus matching faded pants. MOQ 25.",
       description: [
         "The Purple Fade Baseball Uniform starts with a purple button-front jersey that fades to black toward the hem in a halftone dot pattern. Gold piping runs down the placket, and the team name, player name and number are printed in gold. Matching purple pants fade to black below the knee, so the gradient carries through the whole uniform.",
-        "Gradients like this are only possible with sublimation, which also means the colors stay sharp and never peel. The jersey uses a breathable stretch knit with a full button front, and the pants have a belted waist, reinforced knees and elastic cuffs. The fade can use any two colors. Made to order from 25 pieces per design.",
+        "Gradients like this are only possible with sublimation, which also means the colors stay sharp and never peel. The jersey uses a breathable stretch knit with a full button front, and the pants have a belted waist, reinforced knees and elastic cuffs. The fade can use any two colors. Made to order from 10 pieces per design.",
       ],
       highlights: [
         "Purple to black halftone fade",
@@ -476,7 +476,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Lime Shard Baseball Uniform",
       detail: "Black set with jagged lime green shards.",
       metaDescription:
-        "Custom Black & Lime Shard Baseball Uniform: black button-front jersey and pants with jagged lime green shard graphics and lime lettering. MOQ 25 pieces.",
+        "Custom Black & Lime Shard Baseball Uniform: black button-front jersey and pants with jagged lime green shard graphics and lime lettering. MOQ 10 pieces.",
       description: [
         "The Black & Lime Shard Baseball Uniform has a charcoal black button-front jersey with jagged lime green shards climbing up the sides and lower body. The team name is printed across the chest in lime script, and the back carries a large lime number. Matching black pants repeat the shard graphic down the outside of each leg.",
         "The shards are sublimated, so they wrap across seams and onto the pants with no extra cost for the added color. This bold design suits travel ball teams and tournament squads that want to stand out. The jersey is a breathable stretch knit, and the pants have a belted waist, reinforced knees and elastic cuffs. Lime can be swapped for any accent color.",
@@ -527,7 +527,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Powder Blue Pinstripe Baseball Uniform",
       detail: "Powder blue pinstripe jersey with white pants.",
       metaDescription:
-        "Custom Powder Blue Pinstripe Baseball Uniform: powder blue pinstripe jersey with navy script and numbers, paired with white pinstripe pants. MOQ 25 pieces.",
+        "Custom Powder Blue Pinstripe Baseball Uniform: powder blue pinstripe jersey with navy script and numbers, paired with white pinstripe pants. MOQ 10 pieces.",
       description: [
         "The Powder Blue Pinstripe Baseball Uniform pairs a powder blue button-front jersey with fine pinstripes and navy piping. The team name runs across the chest in navy script, with the player name and a large navy number on the back. White pinstripe pants with a navy belt complete a throwback look that works well as an alternate or road uniform.",
         "The pinstripes are sublimated, so they stay straight across the placket and never fade after repeated washing. The jersey is a breathable stretch knit with a full button front, and the pants have a belted waist, reinforced knees and elastic cuffs. Stripe color, spacing and lettering can be adjusted, and the pants can be made in any base color.",
@@ -563,7 +563,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Red Sash Basketball Uniform",
       detail: "Black set with a bold red diagonal sash.",
       metaDescription:
-        "Custom Black & Red Sash Basketball Uniform: black jersey with a red diagonal sash edged in white, plus matching shorts. Sublimated, made to order from 25 sets.",
+        "Custom Black & Red Sash Basketball Uniform: black jersey with a red diagonal sash edged in white, plus matching shorts. Sublimated, made to order from 10 sets.",
       description: [
         "The Black & Red Sash Basketball Uniform runs a wide red band, edged in white, diagonally from the shoulder across the body of a black jersey. White numbers and team name sit above the sash, and a red and white V-neck finishes the collar. The sash continues across the matching black shorts, so the design carries through the whole uniform.",
         "Because the sash is sublimated, it crosses the side seams cleanly with no stitching or overlays. The jersey uses a lightweight, moisture-wicking knit with wide armholes, and the shorts have an elastic waist with an internal drawcord. The angle, width and color of the sash can all be adjusted, and names, numbers and logos are included.",
@@ -580,7 +580,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Chevron Basketball Uniform",
       detail: "Royal blue set with white and grey chevrons.",
       metaDescription:
-        "Custom Royal Chevron Basketball Uniform: royal blue jersey with stacked white and grey chevrons and matching shorts. Fully sublimated, MOQ 25 sets.",
+        "Custom Royal Chevron Basketball Uniform: royal blue jersey with stacked white and grey chevrons and matching shorts. Fully sublimated, MOQ 10 sets.",
       description: [
         "The Royal Chevron Basketball Uniform features stacked white and grey chevrons across the lower front of a royal blue jersey, pointing down toward the hem. White numbers and team name sit above the stripes, with a grey trim at the neck and armholes. The same chevrons repeat at the hem of the shorts, tying the set together on court.",
         "The chevrons are sublimated, so there is no extra charge for the added colors and the stripes stay sharp at every seam. The jersey is made from a breathable, lightweight knit with a classic tank cut, and the shorts have an elastic waistband with a drawcord. Chevron colors, spacing and angle can be changed to suit your program.",
@@ -597,7 +597,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Green Fade Basketball Uniform",
       detail: "Forest green set fading to black in halftone.",
       metaDescription:
-        "Custom Green Fade Basketball Uniform: forest green jersey and shorts that fade to black in a halftone dot pattern, with cream numbers. Sublimated, MOQ 25 sets.",
+        "Custom Green Fade Basketball Uniform: forest green jersey and shorts that fade to black in a halftone dot pattern, with cream numbers. Sublimated, MOQ 10 sets.",
       description: [
         "The Green Fade Basketball Uniform starts with forest green across the chest and shoulders, then fades to black toward the hem through a halftone dot pattern. Cream numbers and team name stand out against the green, and white trim lines the collar and armholes. The matching shorts use the same fade, darkening toward the leg opening.",
         "Gradients like this are only possible with sublimation, which also means the colors never crack or wash out. The jersey is cut from a lightweight, breathable knit with a relaxed tank fit, and the shorts have an elastic waist and drawcord. Any two colors can be used for the fade, and player names, numbers and logos are printed in the same pass.",
@@ -631,7 +631,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Purple Pinstripe Basketball Uniform",
       detail: "Purple pinstripe set with gold numbers.",
       metaDescription:
-        "Custom Purple Pinstripe Basketball Uniform: purple jersey and shorts with thin vertical pinstripes, gold numbers and black trim. Sublimated, from 25 sets.",
+        "Custom Purple Pinstripe Basketball Uniform: purple jersey and shorts with thin vertical pinstripes, gold numbers and black trim. Sublimated, from 10 sets.",
       description: [
         "The Purple Pinstripe Basketball Uniform uses a rich purple body covered in thin vertical pinstripes, with gold numbers and team name across the chest and black trim around the neck and armholes. The matching purple shorts carry the same pinstripes and a gold number on the leg. It is a classic, throwback look suited to purple and gold programs.",
         "The pinstripes are sublimated, so they stay perfectly straight and line up between the jersey and shorts. The jersey is cut from a breathable, lightweight knit in a traditional tank shape, and the shorts have an elastic waistband with a drawcord. Stripe spacing and colors can be adjusted, and numbers can use any color or outline.",
@@ -648,7 +648,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Lime Basketball Uniform",
       detail: "Black set with lime green side panels.",
       metaDescription:
-        "Custom Black & Lime Basketball Uniform: black jersey and shorts with lime green side panels and lime numbers. Fully sublimated, made to order from 25 sets.",
+        "Custom Black & Lime Basketball Uniform: black jersey and shorts with lime green side panels and lime numbers. Fully sublimated, made to order from 10 sets.",
       description: [
         "The Black & Lime Basketball Uniform keeps the design bold and simple: a black jersey with lime green side panels running from the armhole to the hem, lime green numbers and team name, and a white V-neck trim. The matching black shorts carry wide lime panels down each leg, so the accent color reads clearly from across the court.",
         "The set is fully sublimated, so the lime panels and numbers are dyed into the fabric and stay bright after many washes. The jersey uses a moisture-wicking knit with wide armholes, and the shorts have an elastic waist and drawcord. The lime can be swapped for any accent color at no extra cost, and names and logos are included.",
@@ -665,7 +665,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Orange Chest-Band Basketball Uniform",
       detail: "Orange set with a navy chest band and striped hem.",
       metaDescription:
-        "Custom Orange Chest-Band Basketball Uniform: orange jersey with a navy chest band and striped hem, plus matching striped shorts. Sublimated, MOQ 25 sets.",
+        "Custom Orange Chest-Band Basketball Uniform: orange jersey with a navy chest band and striped hem, plus matching striped shorts. Sublimated, MOQ 10 sets.",
       description: [
         "The Orange Chest-Band Basketball Uniform takes its cue from classic throwback jerseys: a bright orange body with a wide navy band across the chest, white numbers below, and navy and white stripes at the hem. The team name sits in white on the navy band. Matching orange shorts finish with the same striped trim at the leg openings.",
         "Even with the retro styling, the set is a modern sublimated build, so the bands and stripes lie flat and never pull at the seams. The jersey uses a breathable, lightweight knit with a classic tank cut, and the shorts have an elastic waist with a drawcord. Band and stripe colors can be changed to match any school palette.",
@@ -682,7 +682,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Basketball Uniform",
       detail: "Sky blue set with navy piping and numbers.",
       metaDescription:
-        "Custom Sky Blue Basketball Uniform: sky blue jersey and shorts with navy and white side piping and navy numbers. Fully sublimated, made to order from 25 sets.",
+        "Custom Sky Blue Basketball Uniform: sky blue jersey and shorts with navy and white side piping and navy numbers. Fully sublimated, made to order from 10 sets.",
       description: [
         "The Sky Blue Basketball Uniform uses a light sky blue body with thin navy and white piping running down both sides, navy numbers and team name across the chest, and white trim at the neck and armholes. The matching shorts carry the same piping down each leg. Schools and clubs with Carolina or powder blue colors often start from this design.",
         "The set is sublimated, so the piping lines up neatly between the jersey and shorts and the colors stay bright after many washes. The jersey is cut from a breathable knit that keeps players cool in warm gyms, and the shorts have an elastic waistband with a drawcord. Any two colors can replace the sky blue and navy.",
@@ -735,7 +735,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Green & Gold Striped Hockey Jersey",
       detail: "Forest green jersey with gold and white bands.",
       metaDescription:
-        "Custom Green & Gold Striped Hockey Jersey: forest green body with gold and white sleeve and hem bands and a subtle fade. Sublimated, from 25 pieces.",
+        "Custom Green & Gold Striped Hockey Jersey: forest green body with gold and white sleeve and hem bands and a subtle fade. Sublimated, from 10 pieces.",
       description: [
         "The Green & Gold Striped Hockey Jersey pairs a forest green body with gold and white bands across the sleeves and hem, the traditional striping layout fans recognise from the stands. A subtle darker fade toward the hem adds depth, and white numbers with a gold outline stay easy to read from the bench and the press box.",
         "The jersey is sublimated, so the bands and fade are dyed into the fabric and stay sharp through a full season of washing. It has a laced collar, a roomy cut over pads, and mesh panels under the arms for airflow. A fight strap is sewn inside the back. Matching green socks with gold and white bands complete the set.",
@@ -752,7 +752,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Navy Band Hockey Jersey",
       detail: "Sky blue jersey with a wide navy chest band.",
       metaDescription:
-        "Custom Sky Blue Navy Band Hockey Jersey: sky blue body with a wide navy and white band across the chest and sleeves, plus matching socks. MOQ 25 pieces.",
+        "Custom Sky Blue Navy Band Hockey Jersey: sky blue body with a wide navy and white band across the chest and sleeves, plus matching socks. MOQ 10 pieces.",
       description: [
         "The Sky Blue Navy Band Hockey Jersey uses a light sky blue body with a wide navy band, edged in white, running across the chest and both sleeves. The crest sits in the middle of the band on the front, and navy numbers stand out clearly on the back. Thinner navy and white stripes at the hem balance the design.",
         "The jersey has a laced collar, a hockey cut that clears shoulder and elbow pads, and a fight strap inside the back. Because it is sublimated, the band and stripes line up perfectly across seams and never peel. Matching socks repeat the navy and white stripes. Any two colors can replace the sky blue and navy for your team.",
@@ -769,7 +769,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Orange & Navy Panel Hockey Jersey",
       detail: "Orange jersey with curved navy side panels.",
       metaDescription:
-        "Custom Orange & Navy Panel Hockey Jersey: orange body with curved navy side panels and navy and white stripes. Sublimated with fight strap, MOQ 25 pieces.",
+        "Custom Orange & Navy Panel Hockey Jersey: orange body with curved navy side panels and navy and white stripes. Sublimated with fight strap, MOQ 10 pieces.",
       description: [
         "The Orange & Navy Panel Hockey Jersey has a bright orange body with curved navy panels that run from the underarm down each side to the hem. Navy and white stripes cross the sleeves and the lower body, and white numbers with a navy outline sit on the back. It is a strong, modern look for clubs with orange and navy colors.",
         "The panels are sublimated rather than sewn, so the jersey stays light and the curves stay smooth through every wash. It has a laced collar, a roomy cut over shoulder and elbow pads, and a fight strap inside the back. Matching orange socks carry navy and white bands. Panel shape, stripe colors and the crest can all be customised.",
@@ -786,7 +786,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Lime Sash Hockey Jersey",
       detail: "Black jersey with a bold lime diagonal sash.",
       metaDescription:
-        "Custom Black & Lime Sash Hockey Jersey: black body with a bold lime green diagonal sash and matching sleeve stripes. Sublimated, any colors, MOQ 25 pieces.",
+        "Custom Black & Lime Sash Hockey Jersey: black body with a bold lime green diagonal sash and matching sleeve stripes. Sublimated, any colors, MOQ 10 pieces.",
       description: [
         "The Black & Lime Sash Hockey Jersey cuts a wide lime green sash, edged in white, diagonally across a black body from shoulder to hip. Lime and white stripes repeat on the sleeves, and lime numbers stand out sharply on the back. The bright accent shows up clearly on the ice and on video, making it a favorite for club and tournament teams.",
         "The sash is sublimated, so it crosses the side seams cleanly and never cracks or lifts. The jersey has a laced collar, a hockey cut that fits over pads, and a fight strap inside the back. Matching black socks carry lime stripes. The sash angle and the accent color can be changed to any shade your team uses.",
@@ -854,7 +854,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Red Yoke Hockey Jersey",
       detail: "Black jersey with a red shoulder yoke.",
       metaDescription:
-        "Custom Black & Red Yoke Hockey Jersey: black body with a red shoulder yoke and red and white stripes on the sleeves and hem. Sublimated, from 25 pieces.",
+        "Custom Black & Red Yoke Hockey Jersey: black body with a red shoulder yoke and red and white stripes on the sleeves and hem. Sublimated, from 10 pieces.",
       description: [
         "The Black & Red Yoke Hockey Jersey pairs a black body with a red yoke across the shoulders and laced collar. Red and white stripes cross the sleeves and the hem, and white numbers with a red outline sit on the back. The dark body and bright yoke give the jersey a strong, aggressive look that suits black and red clubs.",
         "The yoke and stripes are sublimated, so they sit flat over shoulder pads with no extra seams. The jersey has a hockey cut that clears shoulder and elbow pads, underarm mesh for airflow and a fight strap inside the back. Matching black socks carry red and white stripes. Swap the red for any accent color your team uses.",
@@ -871,7 +871,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Chevron Hockey Jersey",
       detail: "Royal blue jersey with white chevron stripes.",
       metaDescription:
-        "Custom Royal Chevron Hockey Jersey: royal blue body with stacked white chevrons at the hem and white sleeve stripes. Sublimated, laced collar, MOQ 25 pieces.",
+        "Custom Royal Chevron Hockey Jersey: royal blue body with stacked white chevrons at the hem and white sleeve stripes. Sublimated, laced collar, MOQ 10 pieces.",
       description: [
         "The Royal Chevron Hockey Jersey features stacked white and light grey chevrons that point down across the lower front of a royal blue body. Matching chevron stripes run across the sleeves, and white numbers stand out clearly on the back. The design feels classic but energetic, and it suits clubs and schools with royal blue and white colors.",
         "The chevrons are sublimated, so the stripes stay sharp at the seams and there is no extra charge for added colors. The jersey has a laced collar, a roomy cut over pads, and a fight strap inside the back. Matching royal socks carry the same white stripes. Chevron colors, spacing and angle can all be changed to suit your team.",
@@ -890,7 +890,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Navy & Gold Volleyball Set",
       detail: "Navy jersey and shorts with curved gold side panels.",
       metaDescription:
-        "Custom Navy & Gold Volleyball Set: sublimated short-sleeve jersey and shorts with curved gold side panels and white numbers. Women’s cut, MOQ 25 sets.",
+        "Custom Navy & Gold Volleyball Set: sublimated short-sleeve jersey and shorts with curved gold side panels and white numbers. Women’s cut, MOQ 10 sets.",
       description: [
         "The Navy & Gold Volleyball Set pairs a deep navy jersey with curved gold panels that sweep up each side from the hem to the underarm. White numbers and a white crew collar keep the front clean and easy for officials to read. It is a popular design for school teams and clubs with navy and gold colors, and it looks sharp in team photos.",
         "The jersey is a women’s cut with short sleeves and a close athletic fit that stays tucked through jumps and dives. Matching navy shorts carry a gold side stripe so the set reads as one piece on court. Everything is sublimated, so names, numbers and sponsor logos are dyed into the fabric. A contrasting libero jersey can be made in the same run.",
@@ -907,7 +907,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black Shard Volleyball Set",
       detail: "Black set with jagged red shard graphics.",
       metaDescription:
-        "Custom Black Shard Volleyball Set: black sublimated jersey and shorts with jagged red shard graphics down the sides. Women’s cut, any colors, from 25 sets.",
+        "Custom Black Shard Volleyball Set: black sublimated jersey and shorts with jagged red shard graphics down the sides. Women’s cut, any colors, from 10 sets.",
       description: [
         "The Black Shard Volleyball Set uses a black base broken up by jagged red shards that run down both sides of the jersey and across the hem. The center of the chest stays clear for the team name and number, so the graphics frame the player without hiding the print. Club teams and tournament squads pick this design when they want an aggressive, modern look.",
         "Because the shards are sublimated, the pattern can wrap across seams and onto the shorts without any extra cost. The jersey has a short-sleeve women’s cut in a lightweight stretch knit that dries quickly between sets. Plain black shorts keep the outfit balanced. The red can be swapped for any accent color, and names, numbers and logos are included.",
@@ -924,7 +924,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Fade Volleyball Set",
       detail: "Royal blue jersey fading to black in halftone.",
       metaDescription:
-        "Custom Royal Fade Volleyball Set: royal blue jersey that fades to black in a halftone dot pattern, with matching shorts. Fully sublimated, MOQ 25 sets.",
+        "Custom Royal Fade Volleyball Set: royal blue jersey that fades to black in a halftone dot pattern, with matching shorts. Fully sublimated, MOQ 10 sets.",
       description: [
         "The Royal Fade Volleyball Set starts with a bright royal blue chest and shoulders, then fades to black toward the hem through a halftone dot pattern. White numbers and a grey collar stand out against the blue, and the darker lower half keeps the jersey looking clean through long tournament days. It suits clubs that want movement in the design without busy graphics.",
         "Gradients like this are only possible with sublimation, which also means the colors never crack or fade in the wash. The jersey is a short-sleeve women’s cut, and the matching shorts continue the halftone dots at the hem. Any two colors can be used for the fade. Player names, numbers and a sleeve logo are printed in the same step.",
@@ -941,7 +941,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Green Chevron Volleyball Set",
       detail: "Forest green set with gold and white chevrons.",
       metaDescription:
-        "Custom Green Chevron Volleyball Set: forest green jersey and shorts with stacked gold and white chevron stripes. Sublimated women’s cut, made from 25 sets.",
+        "Custom Green Chevron Volleyball Set: forest green jersey and shorts with stacked gold and white chevron stripes. Sublimated women’s cut, made from 10 sets.",
       description: [
         "The Green Chevron Volleyball Set features stacked gold and white chevrons that point across the lower half of a forest green jersey. The same chevrons repeat on the shorts, so the set looks continuous when a player is standing at the net. Gold numbers with a white outline sit above the stripes. Schools with green and gold colors often choose this as their home set.",
         "All stripes are sublimated, so the chevrons stay sharp at the seams and there is no extra charge for the added colors. The jersey is a short-sleeve women’s cut in a lightweight stretch knit, with a white crew collar. Chevron colors and spacing can be changed, and a matching libero jersey in contrasting colors can be added to any order.",
@@ -958,7 +958,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Maroon Sash Volleyball Set",
       detail: "Maroon jersey with a wide grey diagonal sash.",
       metaDescription:
-        "Custom Maroon Sash Volleyball Set: maroon jersey with a wide grey diagonal sash and matching shorts. Fully sublimated with names and numbers, MOQ 25 sets.",
+        "Custom Maroon Sash Volleyball Set: maroon jersey with a wide grey diagonal sash and matching shorts. Fully sublimated with names and numbers, MOQ 10 sets.",
       description: [
         "The Maroon Sash Volleyball Set has a wide grey band that runs diagonally from the shoulder to the opposite hip, edged with thin white lines. The sash continues across the shorts, giving the set a sense of motion even when players are standing still. White numbers sit above the band, and the maroon base works well for schools with maroon and grey colors.",
         "The jersey is sublimated, so the sash crosses the side seam cleanly with no stitching or overlays. It has a short-sleeve women’s cut in a stretch knit that moves freely through hitting and blocking. The angle and width of the sash can be adjusted, and the colors can be changed to any team palette. Names, numbers and logos are included.",
@@ -975,7 +975,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Purple & Gold Volleyball Set",
       detail: "Purple jersey with gold side panels and sleeves.",
       metaDescription:
-        "Custom Purple & Gold Volleyball Set: purple jersey with gold sleeves and side panels, plus matching shorts. Sublimated, women’s cut, made to order from 25 sets.",
+        "Custom Purple & Gold Volleyball Set: purple jersey with gold sleeves and side panels, plus matching shorts. Sublimated, women’s cut, made to order from 10 sets.",
       description: [
         "The Purple & Gold Volleyball Set uses a purple body with gold sleeves and straight gold side panels that run down to the hem. Gold numbers and team name sit on the purple chest, and a subtle texture in the body fabric gives the jersey depth up close. It is a clean, classic layout that suits schools and clubs with purple and gold colors.",
         "Matching purple shorts carry gold side panels and a team logo on the leg, so the set looks complete from every angle. The jersey has a short-sleeve women’s cut in a lightweight stretch knit. Everything is sublimated, including names and numbers, so nothing peels after repeated washing. Any two colors can be used in this panel layout.",
@@ -992,7 +992,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Lime Volleyball Set",
       detail: "Black set with lime green piping and numbers.",
       metaDescription:
-        "Custom Black & Lime Volleyball Set: black sublimated jersey and shorts with lime green numbers and side piping. Women’s cut, any accent color, from 25 sets.",
+        "Custom Black & Lime Volleyball Set: black sublimated jersey and shorts with lime green numbers and side piping. Women’s cut, any accent color, from 10 sets.",
       description: [
         "The Black & Lime Volleyball Set keeps the design simple: a black jersey with lime green numbers, team name and twin lines of piping down each side. A white collar adds contrast at the neck. The bright accent shows up clearly in gyms and on video, while the black base stays clean through long weekends of tournament play.",
         "The shorts match the jersey with lime piping and a small logo on the leg. The jersey is a short-sleeve women’s cut in a quick-dry stretch knit that holds its shape through every dive. Because the set is sublimated, the lime can be swapped for any other accent color at no extra cost. Names, numbers and sponsor logos are included.",
@@ -1009,7 +1009,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Orange Brushstroke Volleyball Set",
       detail: "Orange jersey with navy brushstroke sweeps.",
       metaDescription:
-        "Custom Orange Brushstroke Volleyball Set: orange jersey with sweeping navy brushstroke graphics and matching navy shorts. Sublimated women’s cut, MOQ 25 sets.",
+        "Custom Orange Brushstroke Volleyball Set: orange jersey with sweeping navy brushstroke graphics and matching navy shorts. Sublimated women’s cut, MOQ 10 sets.",
       description: [
         "The Orange Brushstroke Volleyball Set has a bright orange body with wide navy brushstrokes that sweep diagonally across the lower half of the jersey. The rough paint edges give it an energetic, hand-made look that stands out in tournament halls. White numbers with a navy outline stay easy to read above the graphic. It suits clubs with orange and navy colors.",
         "The brushstrokes are sublimated, so they cross the side seams and continue onto the navy shorts without any break. The jersey is a short-sleeve women’s cut in a lightweight stretch knit. You can change the stroke color, the base color or the angle of the sweep. Names, numbers and logos on the sleeve and leg are included in the price.",
@@ -1026,7 +1026,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Volleyball Set",
       detail: "Sky blue set with navy side panels.",
       metaDescription:
-        "Custom Sky Blue Volleyball Set: sky blue jersey and shorts with navy side panels and navy numbers. Sublimated, women’s cut, made to order from 25 sets.",
+        "Custom Sky Blue Volleyball Set: sky blue jersey and shorts with navy side panels and navy numbers. Sublimated, women’s cut, made to order from 10 sets.",
       description: [
         "The Sky Blue Volleyball Set uses a light sky blue body with navy side panels framed by thin white piping, plus navy numbers and team name across the chest. The light base keeps the jersey feeling cool in warm gyms, and the navy panels give it a slimming, athletic shape. Schools and clubs with Carolina or powder blue colors often start here.",
         "The matching shorts carry the same navy panels and a team logo on the leg. The jersey is a short-sleeve women’s cut in a breathable stretch knit with a navy collar. All colors, numbers and logos are sublimated, so they stay bright after many washes. Any two colors can replace the sky blue and navy, and a libero jersey can be added.",
@@ -1043,7 +1043,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "White Center-Stripe Volleyball Set",
       detail: "White set with a red and navy center stripe.",
       metaDescription:
-        "Custom White Center-Stripe Volleyball Set: white jersey with a bold red and navy vertical center stripe, plus matching shorts. Sublimated, MOQ 25 sets.",
+        "Custom White Center-Stripe Volleyball Set: white jersey with a bold red and navy vertical center stripe, plus matching shorts. Sublimated, MOQ 10 sets.",
       description: [
         "The White Center-Stripe Volleyball Set runs a bold red stripe, edged in navy, straight down the center of a white jersey. The team name and navy numbers sit across the stripe, and red side panels on the jersey and shorts tie the set together. It is a clean, classic look that works well as an away uniform or for teams with red, white and navy colors.",
         "Because the stripe is sublimated, it stays perfectly straight and lies flat with no seams down the front. The jersey is a short-sleeve women’s cut with a navy collar, made from a stretch knit that keeps its shape through every jump. Stripe width and colors can be changed. Names, numbers and logos are printed in the same pass.",
@@ -1062,7 +1062,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "White & Red Brushstroke Tracksuit",
       detail: "White tracksuit with red brushstroke sweeps.",
       metaDescription:
-        "Custom White & Red Brushstroke Tracksuit: full-zip jacket, joggers and matching hoodie with sublimated red brushstrokes and team names. MOQ 25 sets.",
+        "Custom White & Red Brushstroke Tracksuit: full-zip jacket, joggers and matching hoodie with sublimated red brushstrokes and team names. MOQ 10 sets.",
       description: [
         "The White & Red Brushstroke Tracksuit pairs a clean white full-zip jacket with bold red brushstrokes that sweep across the lower body and continue onto the joggers below the knee. A navy zip, team crest on the chest and a large team name across the back finish the set. A matching white hoodie with a red hood and cuffs completes the look.",
         "Every graphic is sublimated into a soft brushed polyester knit, so the strokes stay sharp after repeated washing and never crack or peel. The jacket has a stand-up collar, zip hand pockets and elastic cuffs, while the joggers use an elastic waist with drawcord and tapered ankles. Brushstroke colors can be changed to match any team kit.",
@@ -1079,7 +1079,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Sky Blue Panel Tracksuit",
       detail: "Sky blue tracksuit with curved navy side panels.",
       metaDescription:
-        "Custom Sky Blue Panel Tracksuit: sky blue full-zip jacket and joggers with curved navy side panels, plus a matching hoodie. Sublimated, from 25 sets.",
+        "Custom Sky Blue Panel Tracksuit: sky blue full-zip jacket and joggers with curved navy side panels, plus a matching hoodie. Sublimated, from 10 sets.",
       description: [
         "The Sky Blue Panel Tracksuit uses a light sky blue body with curved navy panels that run down each side of the jacket and along the outside of the joggers. A white zip, small team name and crest on the chest and an arched team name across the back keep it smart for travel days. The matching hoodie adds navy cuffs and a navy hem band.",
         "The set is made from a brushed polyester knit that is warm before matches but light enough for travel. Panels are sublimated, so they sit flat without extra seams. The jacket has a stand-up collar, zip pockets and elastic cuffs, and the joggers have a drawcord waist and tapered legs. Any two team colors can replace the sky blue and navy.",
@@ -1096,7 +1096,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Orange Sash Tracksuit",
       detail: "Orange tracksuit with a bold navy diagonal sash.",
       metaDescription:
-        "Custom Orange Sash Tracksuit: orange full-zip jacket with a wide navy diagonal sash, matching joggers and hoodie. Fully sublimated with logos, MOQ 25 sets.",
+        "Custom Orange Sash Tracksuit: orange full-zip jacket with a wide navy diagonal sash, matching joggers and hoodie. Fully sublimated with logos, MOQ 10 sets.",
       description: [
         "The Orange Sash Tracksuit runs a wide navy sash diagonally across the front and back of a bright orange full-zip jacket, with the same band cutting across one leg of the joggers. The team crest sits on the sash at the chest, and the team name is printed along the sash on the back. A matching orange hoodie carries the sash on its sleeve.",
         "The sash is sublimated rather than sewn, so it crosses the zip and side seams cleanly and lies flat. The jacket is made from a brushed polyester knit with a stand-up collar, zip hand pockets and navy cuffs. Joggers have an elastic drawcord waist and tapered legs. The sash angle, width and colors can all be adjusted to suit your club.",
@@ -1113,7 +1113,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Purple Shard Tracksuit",
       detail: "Purple tracksuit with gold and grey shard graphics.",
       metaDescription:
-        "Custom Purple Shard Tracksuit: purple full-zip jacket, joggers and hoodie with angular gold and grey shard graphics. Sublimated team warm-up, MOQ 25 sets.",
+        "Custom Purple Shard Tracksuit: purple full-zip jacket, joggers and hoodie with angular gold and grey shard graphics. Sublimated team warm-up, MOQ 10 sets.",
       description: [
         "The Purple Shard Tracksuit breaks up a deep purple base with angular gold and grey shards that rise from the hem of the jacket and run down the sides of the joggers. Gold team names and a crest stand out on the chest and back. The matching purple hoodie repeats the shards at the hem and adds a gold hood lining and gold cuffs.",
         "Because the shards are sublimated, the pattern can wrap across seams and pockets at no extra cost and will not fade with washing. The jacket uses a brushed polyester knit with a stand-up collar, full-length zip and elastic cuffs. Joggers have a drawcord waist, zip pockets and tapered ankles. Shard colors can be swapped for any team palette.",
@@ -1130,7 +1130,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Maroon Fade Tracksuit",
       detail: "Maroon tracksuit fading to black in halftone dots.",
       metaDescription:
-        "Custom Maroon Fade Tracksuit: maroon full-zip jacket and joggers that fade to black in halftone dots, with a matching hoodie. Sublimated, from 25 sets.",
+        "Custom Maroon Fade Tracksuit: maroon full-zip jacket and joggers that fade to black in halftone dots, with a matching hoodie. Sublimated, from 10 sets.",
       description: [
         "The Maroon Fade Tracksuit starts with a rich maroon chest and shoulders, then fades to black toward the hem through a halftone dot pattern. The joggers repeat the fade below the knee, so the whole set flows from top to bottom. White team names and a crest sit on the maroon, and a matching hoodie with a grey hood lining completes the range.",
         "Gradients like this are only possible with sublimation, and the colors stay bright through a full season of washing. The jacket is a brushed polyester knit with a stand-up collar, white zip and elastic cuffs, and the joggers have a drawcord waist with tapered legs. The fade can use any two colors, so it suits almost any club or school.",
@@ -1147,7 +1147,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Royal Yoke Tracksuit",
       detail: "Royal blue tracksuit with a white shoulder yoke.",
       metaDescription:
-        "Custom Royal Yoke Tracksuit: royal blue full-zip jacket with a white shoulder yoke, joggers with white side panels and a matching hoodie. MOQ 25 sets.",
+        "Custom Royal Yoke Tracksuit: royal blue full-zip jacket with a white shoulder yoke, joggers with white side panels and a matching hoodie. MOQ 10 sets.",
       description: [
         "The Royal Yoke Tracksuit uses a bright royal blue body with a white yoke across the shoulders that frames the team name on the back. White panels run down the sides of the joggers to carry the contrast through the set. A crest and small team name on the chest keep the front clean, and the matching hoodie has a white hood lining and hem band.",
         "The yoke is sublimated, so it sits flat without the bulk of a sewn panel. The jacket is cut from a brushed polyester knit with a stand-up collar, full-length zip, zip pockets and elastic cuffs. Joggers have a drawcord waist and tapered legs. It is a clean, classic warm-up that works with any two team colors.",
@@ -1181,7 +1181,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Navy & Gold Raglan Tracksuit",
       detail: "Navy tracksuit with gold raglan shoulders.",
       metaDescription:
-        "Custom Navy & Gold Raglan Tracksuit: navy full-zip jacket with gold raglan shoulders, joggers with gold side stripes and a matching hoodie. MOQ 25 sets.",
+        "Custom Navy & Gold Raglan Tracksuit: navy full-zip jacket with gold raglan shoulders, joggers with gold side stripes and a matching hoodie. MOQ 10 sets.",
       description: [
         "The Navy & Gold Raglan Tracksuit pairs a navy body with gold raglan shoulders edged in white, giving the jacket a classic sporty shape. Gold stripes run down the outside of the navy joggers, and a large team name sits across the shoulders on the back. The matching navy hoodie has a gold hood lining, gold cuffs and a gold hem band.",
         "The jacket is made from a brushed polyester knit with a stand-up collar, white full-length zip, zip hand pockets and elastic cuffs. Joggers have a drawcord waist and tapered legs. Shoulder and stripe colors are sublimated, so they never fade or peel. Crests can also be embroidered on the chest for a premium finish on staff and coach sets.",
@@ -1198,7 +1198,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Black & Red Piping Tracksuit",
       detail: "Black tracksuit with fine red side piping.",
       metaDescription:
-        "Custom Black & Red Piping Tracksuit: black full-zip jacket and joggers with fine red side piping and white team names, plus a matching hoodie. MOQ 25 sets.",
+        "Custom Black & Red Piping Tracksuit: black full-zip jacket and joggers with fine red side piping and white team names, plus a matching hoodie. MOQ 10 sets.",
       description: [
         "The Black & Red Piping Tracksuit keeps things understated: a black full-zip jacket and joggers with a fine red line of piping down each side, a white zip, and a white team name across the back. The matching black hoodie adds a red hood lining and red cuffs. It is a smart choice for travel days, coaching staff and clubs that prefer a minimal look.",
         "The black base hides wear and stays sharp through a season of training. The jacket is a brushed polyester knit with a stand-up collar, zip hand pockets and elastic cuffs, and the joggers have a drawcord waist with tapered legs. Crests and names can be printed or embroidered, and the piping color can be changed to any team accent.",
@@ -1215,7 +1215,7 @@ export const productItems: Record<string, ProductItem[]> = {
       name: "Charcoal & Lime Tracksuit",
       detail: "Charcoal tracksuit with lime green side panels.",
       metaDescription:
-        "Custom Charcoal & Lime Tracksuit: charcoal full-zip jacket and joggers with lime green side panels and team names, plus a matching hoodie. From 25 sets.",
+        "Custom Charcoal & Lime Tracksuit: charcoal full-zip jacket and joggers with lime green side panels and team names, plus a matching hoodie. From 10 sets.",
       description: [
         "The Charcoal & Lime Tracksuit uses a dark charcoal base with bright lime green panels down the sides of the jacket and joggers. A large lime team name runs across the back, with a smaller name and crest on the chest. The matching charcoal hoodie has a lime hood lining and lime hem band, so the whole range carries the same high-energy accent.",
         "The charcoal fabric hides dirt and wear, while the lime keeps players visible during evening warm-ups. The jacket is a brushed polyester knit with a stand-up collar, full-length zip, zip pockets and elastic cuffs. Joggers have a drawcord waist and tapered legs. The lime can be changed to any accent color, all sublimated at no extra cost.",
