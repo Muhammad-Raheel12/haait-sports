@@ -111,7 +111,7 @@ export const posts: Post[] = [
     title: "Uniform fabrics: mesh vs interlock vs dazzle",
     description:
       "Which fabric should your team uniforms use? Compare mesh, interlock, dazzle, stretch knit and recycled polyester on comfort, durability and print quality.",
-    date: "2026-11-14",
+    date: "2026-10-29",
     keywords: ["uniform fabric types", "jersey fabric", "mesh vs interlock", "dazzle fabric", "sublimation fabric"],
     sections: [
       {
@@ -181,7 +181,7 @@ export const posts: Post[] = [
     title: "How to collect team uniform sizes",
     description:
       "A practical system for collecting player sizes for custom team uniforms: size charts, try-on sessions, youth and women’s cuts, rosters and spares.",
-    date: "2026-11-14",
+    date: "2026-11-05",
     keywords: ["team uniform sizing", "uniform size chart", "jersey sizing guide", "team roster sizes"],
     sections: [
       {
@@ -236,7 +236,7 @@ export const posts: Post[] = [
     title: "Private label team uniforms for dealers",
     description:
       "How team dealers and sportswear brands work with a uniform factory under their own label: branding, samples, pricing, quality control and repeat orders.",
-    date: "2026-11-14",
+    date: "2026-11-12",
     keywords: ["private label sportswear", "private label team uniforms", "uniform manufacturer for dealers", "sportswear OEM"],
     sections: [
       {
