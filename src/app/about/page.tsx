@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
+import PhotoOrCollage, { type CollagePick } from "@/components/PhotoOrCollage";
 import QuoteCta from "@/components/QuoteCta";
 import { site } from "@/config/site";
 import { pageMetadata } from "@/lib/seo";
@@ -16,6 +16,14 @@ const values = [
   { title: "Straight answers", text: "Clear prices, realistic deadlines, and a quick reply when you ask a question." },
   { title: "Consistency", text: "The tenth re-order should match the first. We keep patterns, colors and artwork on file." },
   { title: "Confidentiality", text: "Your designs are yours. We never sell, show or reuse a customer’s artwork." },
+];
+
+// Shown until /public/images/site/team.jpg exists. Varied colors and sports, none repeated on the Manufacturing page.
+const collage: CollagePick[] = [
+  { category: "soccer-uniforms", item: "red-black-stripe-soccer-kit" },
+  { category: "american-football-uniforms", item: "green-chevron-game-uniform" },
+  { category: "baseball-uniforms", item: "orange-chevron-baseball-uniform" },
+  { category: "basketball-uniforms", item: "royal-chevron-basketball-uniform" },
 ];
 
 export default function AboutPage() {
@@ -44,9 +52,14 @@ export default function AboutPage() {
             Most of our business comes from repeat customers and their referrals.
           </p>
         </div>
-        <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-chalk lg:mt-2">
-          <Image src="/images/site/team.jpg" alt={`The ${site.name} team at our factory`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-        </div>
+        <PhotoOrCollage
+          photo="team"
+          alt={`The ${site.name} team at our factory`}
+          className="aspect-[4/3] rounded-xl bg-chalk"
+          wrapperClassName="lg:mt-2"
+          picks={collage}
+          sizes="(min-width: 1024px) 50vw, 100vw"
+        />
       </section>
 
       <section className="bg-chalk py-16 md:py-24">

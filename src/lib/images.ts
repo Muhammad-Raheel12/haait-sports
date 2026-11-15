@@ -52,3 +52,8 @@ export function itemGallery(category: string, item: string): string[] {
 export function itemImage(category: string, item: string): string | null {
   return find(`/images/products/${category}/${item}`);
 }
+
+/** Site photo such as /images/site/team.jpg, or null until a real photo is added. */
+export function sitePhoto(name: string): string | null {
+  return find(`/images/site/${name}`);
+}

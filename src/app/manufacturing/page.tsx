@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
+import PhotoOrCollage, { type CollagePick } from "@/components/PhotoOrCollage";
 import QuoteCta from "@/components/QuoteCta";
 import { site } from "@/config/site";
 import { pageMetadata } from "@/lib/seo";
@@ -31,6 +31,16 @@ const checks = [
   "Photos of finished goods sent to you before shipping",
 ];
 
+// Shown until /public/images/site/factory.jpg exists. Varied colors and sports, none repeated on the About page.
+const collage: CollagePick[] = [
+  { category: "ice-hockey-jerseys", item: "white-cross-stripe-hockey-jersey" },
+  { category: "volleyball-uniforms", item: "orange-brushstroke-volleyball-set" },
+  { category: "team-warm-ups-tracksuits", item: "sky-blue-panel-tracksuit" },
+  { category: "american-football-uniforms", item: "maroon-diamond-game-uniform" },
+  { category: "soccer-uniforms", item: "black-volt-shard-soccer-kit" },
+  { category: "baseball-uniforms", item: "navy-pinstripe-baseball-uniform" },
+];
+
 export default function ManufacturingPage() {
   return (
     <>
@@ -41,9 +51,14 @@ export default function ManufacturingPage() {
       />
 
       <section className="container grid gap-14 py-16 md:py-24 lg:grid-cols-[1fr_1.2fr]">
-        <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-chalk lg:sticky lg:top-24 lg:self-start">
-          <Image src="/images/site/factory.jpg" alt="Stitching line at our uniform factory" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
-        </div>
+        <PhotoOrCollage
+          photo="factory"
+          alt="Stitching line at our uniform factory"
+          className="aspect-[4/5] rounded-xl bg-chalk"
+          wrapperClassName="lg:sticky lg:top-24 lg:self-start"
+          picks={collage}
+          sizes="(min-width: 1024px) 45vw, 100vw"
+        />
         <div>
           <h2>How your order is made</h2>
           <ol className="mt-10 space-y-0">

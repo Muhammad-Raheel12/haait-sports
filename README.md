@@ -19,8 +19,8 @@ npm start          # preview the built /out folder
 1. **`src/config/site.ts`** – company name, domain, email, phone, WhatsApp, address, MOQ, lead times, social links.
    Everything on the site (titles, footer, contact page, structured data, sitemap) reads from here.
 2. **Images** – replace the placeholder JPGs in `public/images/` with real photos, keeping the same file names:
-   - `public/images/site/team.jpg` (1600×1200, About page), `factory.jpg` (1200×1500, Manufacturing page)
-   - `public/images/site/og-default.jpg` (1200×630) – shown when links are shared on social media
+   - `public/images/site/team.jpg` (4:3, About page) and `factory.jpg` (4:5, Manufacturing page) – optional. Until you add them, those pages show a grid of your product designs; adding the file switches the page to your photo automatically.
+   - `public/images/site/og-default.jpg` (1200×630) – shown when links are shared on social media. The current one is a branded graphic (logo, headline, product photos); replace it with your own if you like.
    - `public/images/site/logo.png` (square, 512×512) – used by Google for your organization
    - `public/images/products/<product-slug>.jpg` – category tile, one per product (front view)
    - `public/images/products/<product-slug>/<item-slug>.jpg` – style card (front view)
