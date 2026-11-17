@@ -21,7 +21,7 @@ export const site = {
   foundingYear: 2021,
 
   contact: {
-    email: "sales@yourdomain.com",
+    email: "haafitsports@gmail.com",
     /** International format, used for tel: links. */
     phone: "+92 309 7616497",
     /** Digits only with country code, used for the WhatsApp link. */
