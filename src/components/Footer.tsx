@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="container grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
           <Logo full />
-          <p className="mt-4 max-w-xs">{site.tagline}. Supplying teams, dealers and brands in {site.ordering.markets.length}+ markets since {site.foundingYear}.</p>
+          <p className="mt-4 max-w-xs">{site.tagline} in {site.address.city}, since {site.foundingYear}.</p>
           {socials.length > 0 && (
             <ul className="mt-5 flex flex-wrap gap-4">
               {socials.map(([name, url]) => (

@@ -16,7 +16,7 @@ export const faqGroups: FaqGroup[] = [
       },
       {
         q: "Do you work with distributors and team dealers?",
-        a: "Yes. Most of our customers are team dealers, distributors and sportswear brands who resell under their own name. We offer tiered pricing for repeat volume.",
+        a: "Yes. We work with team dealers, distributors and sportswear brands who resell under their own name. We offer tiered pricing for repeat volume.",
       },
       {
         q: "Can you produce under our own brand (private label)?",
