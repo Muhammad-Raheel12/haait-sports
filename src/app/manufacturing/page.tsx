@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Manufacturing Process & Quality Control",
   description:
-    "See how we manufacture custom team uniforms in-house: design, cutting, sublimation, stitching, inspection and packing, with quality checks at every stage.",
+    "See how we manufacture custom team uniforms: design, cutting, sublimation, stitching, inspection and packing, with quality checks at every stage.",
   path: "/manufacturing/",
   keywords: ["uniform manufacturing process", "sportswear factory", "apparel quality control"],
 });
@@ -17,7 +17,7 @@ const stages = [
   { title: "Pattern and design", text: "Designs are prepared in-house and patterns are graded for every size in your order." },
   { title: "Fabric inspection", text: "Incoming fabric is checked for weight, shade and defects before it reaches the cutting table." },
   { title: "Cutting", text: "Panels are cut in layers with every piece labeled to its size and player." },
-  { title: "Sublimation and decoration", text: "Printing, twill, embroidery and screen printing are all done on our own machines." },
+  { title: "Sublimation and decoration", text: "Sublimation, twill, embroidery and screen printing are applied to spec, and every decorated panel is checked before stitching." },
   { title: "Stitching", text: "Skilled operators assemble each garment on flatlock, overlock and twin-needle machines." },
   { title: "Final inspection", text: "Every piece is measured and checked against the approved sample." },
   { title: "Packing", text: "Garments are folded, bagged and packed per player or per size, with packing lists." },
@@ -46,7 +46,7 @@ export default function ManufacturingPage() {
     <>
       <PageHeader
         title="Manufacturing and quality control"
-        intro={`Every stage of production happens in our own facility in ${site.address.city}, ${site.address.country}. Here’s how your uniforms are made.`}
+        intro={`Every stage of production is managed by our team in ${site.address.city}, ${site.address.country}. Here’s how your uniforms are made.`}
         crumbs={[{ name: "Manufacturing", path: "/manufacturing/" }]}
       />
 
